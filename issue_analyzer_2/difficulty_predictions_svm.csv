@@ -1,0 +1,330 @@
+issue_id,repository,issue_title,difficulty,predicted_difficulty
+JuliusBrussee/caveman#953,JuliusBrussee/caveman,Add OrcaRouter as an optional AI provider,intermediate,intermediate
+microsoft/markitdown#1802,microsoft/markitdown,UnicodeEncodeError: 'charmap' codec can't encode characters in position 9-13: character maps to <undefined>,intermediate,intermediate
+DietrichGebert/ponytail#854,DietrichGebert/ponytail,Codebuddy support,intermediate,intermediate
+gohugoio/hugo#15237,gohugoio/hugo,"GetSortedMapValues reads the map after releasing the read lock, so a concurrent SetInMap aborts the build",intermediate,intermediate
+macrozheng/mall#550,macrozheng/mall,登录不上 admin-mall-web，输入密码后，点击登录页面报 404 ,beginner,beginner
+yt-dlp/yt-dlp#13562,yt-dlp/yt-dlp,Automatically passing -F upon format not available error,intermediate,intermediate
+DietrichGebert/ponytail#937,DietrichGebert/ponytail,Muse Code CLI,intermediate,intermediate
+golang/go#81838,golang/go,"log/slog: built-in handlers add a group named """" for WithGroup("""")",intermediate,intermediate
+macrozheng/mall#553,macrozheng/mall,MallSearchApplication 依赖失败问题,intermediate,intermediate
+microsoft/vscode#279241,microsoft/vscode,gemini 3 pro is saying invalid request body,intermediate,intermediate
+yt-dlp/yt-dlp#2725,yt-dlp/yt-dlp,[Broken Site] WP Pilot (Polish TV service),intermediate,intermediate
+Snailclimb/JavaGuide#967,Snailclimb/JavaGuide,JavaGuide/docs/database/MySQL Index.md查询无用索引的视图写错了,beginner,beginner
+DietrichGebert/ponytail#757,DietrichGebert/ponytail,Ruleset fights host plan/review gates (agent writes spec .md instead of submit_plan),intermediate,intermediate
+practical-tutorials/project-based-learning#697,practical-tutorials/project-based-learning,Build a Distributed Streaming System with Python and Kafka leads the wrong website,intermediate,intermediate
+JuliusBrussee/caveman#997,JuliusBrussee/caveman,caveman-compress: validate_code_blocks cannot detect a fenced/indented block swapping relative position,intermediate,intermediate
+NationalSecurityAgency/ghidra#2445,NationalSecurityAgency/ghidra,SLEIGH: 64-bit signed token field constraints do not compile,advanced,advanced
+spring-projects/spring-boot#51840,spring-projects/spring-boot,Possible autoconfigure bug with kotlinx serialization and webflux,intermediate,intermediate
+avelino/awesome-go#6084,avelino/awesome-go,Question: would a practical RAG / LLM troubleshooting resource be considered too far outside scope?,intermediate,intermediate
+fatedier/frp#5425,fatedier/frp,Memory leak,intermediate,intermediate
+airbnb/javascript#3138,airbnb/javascript,Update on eslint v9 please,beginner,beginner
+yt-dlp/yt-dlp#17742,yt-dlp/yt-dlp,"Multiple sources shown when attempting to install with winget, possible malicious lookalike package",intermediate,intermediate
+doocs/advanced-java#34,doocs/advanced-java,分布式服务接口请求的顺序性如何保证？,intermediate,beginner
+nilbuild/developer-roadmap#10387,nilbuild/developer-roadmap,[New Roadmap Feedback] R Programming,beginner,beginner
+golang/go#81807,golang/go,cmd/go: 'go work use' documentation is stale and contains typo,beginner,advanced
+yt-dlp/yt-dlp#17732,yt-dlp/yt-dlp,url_or_none rejects URLs with uppercase schemes,intermediate,intermediate
+gin-gonic/gin#4772,gin-gonic/gin,PostForm getters panic when Context has no request,intermediate,intermediate
+Snailclimb/JavaGuide#2871,Snailclimb/JavaGuide,关于线程池非核心线程的相关补充,intermediate,beginner
+NationalSecurityAgency/ghidra#9655,NationalSecurityAgency/ghidra,GP-6936 turns ordinary negative stack offsets into join varnodes on 16-bit-address processors,intermediate,intermediate
+ollama/ollama#18575,ollama/ollama,"/v1/chat/completions ignores max_tokens AND overrides the Modelfile num_predict default, leaving generation unbounded",intermediate,intermediate
+infiniflow/ragflow#19076,infiniflow/ragflow,Follow-ups for PR #18254 (PPTX one chunk per slide): cleanup + parity,intermediate,intermediate
+fatedier/frp#5290,fatedier/frp,[Feature Request] Allow `/healthz` endpoints to be accessible without admin UI,intermediate,intermediate
+doocs/advanced-java#64,doocs/advanced-java,能新增一个关于JVM跟一些Java知识点相关的版块吗,beginner,beginner
+yt-dlp/yt-dlp#13758,yt-dlp/yt-dlp,[NRK] No Video Formats Found,intermediate,intermediate
+DietrichGebert/ponytail#672,DietrichGebert/ponytail,Cursor support ,intermediate,intermediate
+affaan-m/ECC#3424,affaan-m/ECC,Add French (fr) localization — checking conventions before starting,intermediate,intermediate
+microsoft/vscode#339700,microsoft/vscode,allowedDomains empty allows access to all pages,intermediate,intermediate
+Snailclimb/JavaGuide#2861,Snailclimb/JavaGuide,AQS 共享模式中 PROPAGATE 示例推演疑似遗漏新 head.waitStatus 判断,beginner,beginner
+anomalyco/opencode#50857,anomalyco/opencode,"instructions: Windows lowercase drive letter in workspace path causes stack overflow, blocking all sessions",intermediate,intermediate
+spring-projects/spring-boot#51824,spring-projects/spring-boot,Remove CI for non-LTS versions prior to Java 27,intermediate,intermediate
+nodejs/node#66487,nodejs/node,"sqlite: `expandedSQL`, `sourceSQL`, column names, and `sqlite.db.query` tracing abort the process on text longer than `String::kMaxLength`",intermediate,intermediate
+react/react#29045,react/react,Bug: eslint-plugin-react-hooks documentation might be misleading,beginner,intermediate
+spring-projects/spring-boot#51832,spring-projects/spring-boot,Upgrade to Hibernate 7.4.9.Final,beginner,beginner
+yt-dlp/yt-dlp#15089,yt-dlp/yt-dlp,[Rumble] Unable to download webpage: HTTP Error 403: Forbidden,intermediate,intermediate
+kubernetes/kubernetes#139383,kubernetes/kubernetes,informer-gen: naive pluralization in WithInformerName GVR + godoc bugs in factory.go template,intermediate,intermediate
+Stirling-Tools/Stirling-PDF#7548,Stirling-Tools/Stirling-PDF,[Bug]: Desktop app hangs on quit (⌘Q) — deadlock between tauri_plugin_http shutdown and Webview::url() IPC,advanced,intermediate
+Significant-Gravitas/AutoGPT#15032,Significant-Gravitas/AutoGPT,"find_capability should also search user-connected custom MCP servers, not just the default catalog",intermediate,intermediate
+TheAlgorithms/Java#6922,TheAlgorithms/Java,[Dynamic Programming ] <Collision Detection of N Robots>,intermediate,intermediate
+kubernetes/kubernetes#142464,kubernetes/kubernetes,"The volume subpath may have wrong 0755 perm while calling SafeMakedir, kubelet happened to be restarted",intermediate,intermediate
+Snailclimb/JavaGuide#2889,Snailclimb/JavaGuide,“计算机网络常见面试题总结（上）”的图片显示问题,beginner,beginner
+gohugoio/hugo#13871,gohugoio/hugo,Add mechanism in `--cleanDestinationDir` to keep brotli compressed files,intermediate,intermediate
+nodejs/node#62393,nodejs/node,Crash in V8 GC on v24.x and earlier,advanced,advanced
+gohugoio/hugo#13478,gohugoio/hugo,OpenGraph image width and height tags  missing in _internal/opengraph.html template,intermediate,intermediate
+microsoft/markitdown#278,microsoft/markitdown,FileConversionException: Could not convert '',intermediate,intermediate
+trekhleb/javascript-algorithms#2221,trekhleb/javascript-algorithms,[TEL] Telugu Language Translation / తెలుగు భాష అనువాదము,beginner,beginner
+golang/go#81892,golang/go,simd/archsimd: support RISC-V RVV SIMD intrinsics under a GOEXPERIMENT,intermediate,intermediate
+react/react#37669,react/react,Bug: hidden-document InvalidStateError from ViewTransition is reported again on Chrome 153+ (message now carries a reason suffix),intermediate,intermediate
+spring-projects/spring-boot#51805,spring-projects/spring-boot,Upgrade to Spring Security 7.2.0-M2,beginner,beginner
+gohugoio/hugo#13085,gohugoio/hugo,Add hugo.BuildCount,intermediate,intermediate
+n8n-io/n8n#39865,n8n-io/n8n,Assistant model verification returns Invalid JSON response with Oproxy endpoint on 2.41.3,intermediate,intermediate
+golang/go#68087,golang/go,x/tools/gopls: `go clean` fails with ENOTEMPTY (openbsd) causing gopls test flakes,intermediate,intermediate
+golang/go#81893,golang/go,security: fix CVE-2026-56861 [1.26 backport],advanced,advanced
+microsoft/TypeScript#64533,microsoft/TypeScript,[API] Expose some type checker features  that were available in TS6,intermediate,intermediate
+TheAlgorithms/Java#7387,TheAlgorithms/Java,[FEATURE REQUEST] Add a simple thread-safe queue implementation.,intermediate,intermediate
+JuliusBrussee/caveman#1037,JuliusBrussee/caveman,Codex re-prompts for already-approved commands after Caveman shrink rewrite,intermediate,intermediate
+yt-dlp/yt-dlp#17700,yt-dlp/yt-dlp,[Yandex Music] Unsupported URL error when downloading a favorites playlist,intermediate,intermediate
+JuliusBrussee/caveman#1109,JuliusBrussee/caveman,agent-drift: opencode — installed 1.18.34 exceeds pinned 1.18.31,intermediate,intermediate
+fatedier/frp#5289,fatedier/frp,UDP On the server for frp is not forwarding fully.,intermediate,intermediate
+elastic/elasticsearch#159451,elastic/elasticsearch,[CI] AsyncSearchActionIT testRestartAfterCompletion failing,intermediate,intermediate
+freeCodeCamp/freeCodeCamp#70465,freeCodeCamp/freeCodeCamp,Caesar Cipher Step 10 has awkward wording and an incorrect ellipsis,beginner,intermediate
+microsoft/vscode#303838,microsoft/vscode,"Tabs, Pinned Tabs, disappearing without Asking to Save Edited Data",intermediate,intermediate
+donnemartin/system-design-primer#1320,donnemartin/system-design-primer,"Project Showcase: Battle-Tested Patterns — 46 programming patterns extracted from production codebases, with precise source links and multi-language exercises",intermediate,intermediate
+nilbuild/developer-roadmap#10197,nilbuild/developer-roadmap,HTML roadmap outdated in some topics,beginner,beginner
+openclaw/openclaw#146860,openclaw/openclaw,"Windows: managed update handoff cannot obtain process start identity when the Gateway Scheduled Task uses LogonType InteractiveToken -> activating stalls, settles abandoned",intermediate,intermediate
+infiniflow/ragflow#20446,infiniflow/ragflow,[Feature Request]:Add SerpApi web search provider,intermediate,intermediate
+yt-dlp/yt-dlp#12105,yt-dlp/yt-dlp,How to select a specific language for an audio format?,intermediate,intermediate
+doocs/advanced-java#92,doocs/advanced-java,好想知道三年前因为缓存雪崩损失几千万的公司是哪个啊,intermediate,beginner
+donnemartin/system-design-primer#1201,donnemartin/system-design-primer,Add FileShot.io as a real-world example of zero-knowledge client-side encryption design pattern,intermediate,intermediate
+spring-projects/spring-boot#51702,spring-projects/spring-boot,Upgrade to SLF4J 2.0.19,beginner,beginner
+gohugoio/hugo#14044,gohugoio/hugo,Automatic summary may generate invalid HTML with blockquotes and lists,intermediate,intermediate
+golang/go#75667,golang/go,x/build: bot linux-ppc64-power10--02 reported as broken,intermediate,intermediate
+mrdoob/three.js#34706,mrdoob/three.js,WebGPURenderer: color clear ignores scissor with the WebGPU backend (Color background wipes previous viewports),intermediate,intermediate
+vercel/next.js#99579,vercel/next.js,Turbopack: `next build` over a persistent cache from a different compile pipeline is slower and peaks higher than a cold build,intermediate,intermediate
+JuliusBrussee/caveman#1026,JuliusBrussee/caveman,provider_malformed usage accounting on a Z.AI compat mount (Claude Code traffic): zero requests compression-eligible,intermediate,intermediate
+fatedier/frp#5309,fatedier/frp,UI shows wrong port,intermediate,intermediate
+microsoft/TypeScript#64495,microsoft/TypeScript,"Record<K1, T> & Record<K2, U> is assignable to Record<K1 | K2, T & U>",intermediate,intermediate
+macrozheng/mall#556,macrozheng/mall,"调用用户注册接口后,去登陆,这时候的用户有访问其他接口的权限吗?",intermediate,beginner
+macrozheng/mall#425,macrozheng/mall,订单列表、订单详情-级联查询问题,beginner,beginner
+JuliusBrussee/caveman#991,JuliusBrussee/caveman,fix(stats): retire unsourced 0.65 COMPRESSION constant to align with HONEST-NUMBERS.md,intermediate,intermediate
+spring-projects/spring-boot#51816,spring-projects/spring-boot,Upgrade to Kotlin 2.4.20,beginner,beginner
+infiniflow/ragflow#20439,infiniflow/ragflow,"[Bug]: MinerU (local) model provider fails verification with ""mineru no such method""; provider cannot be saved",intermediate,intermediate
+iluwatar/java-design-patterns#3229,iluwatar/java-design-patterns,Implement Microservices Load Shedding pattern,intermediate,intermediate
+affaan-m/ECC#3276,affaan-m/ECC,"ecc2: dashboard tests overwrite the user's real config.toml, breaking cargo run afterwards",intermediate,intermediate
+anomalyco/opencode#40482,anomalyco/opencode,"Stack overflow via recursive exception dispatch in bundled Bun on every outbound fetch (Windows 11, v1.18.4 and v1.18.11)",intermediate,intermediate
+macrozheng/mall#456,macrozheng/mall,"怎么排除mongdb ,消息队列的自动连接",beginner,beginner
+mrdoob/three.js#34668,mrdoob/three.js,WebGLRenderer: shadow pass ignores `light.shadow.camera.layers` (inconsistent with WebGPURenderer since #30877),intermediate,intermediate
+n8n-io/n8n#40247,n8n-io/n8n,Splunk v2: Continue loses error details or throws when cause.error is absent,intermediate,intermediate
+golang/go#75734,golang/go,cmd/go: dev build produces invalid binaries on Windows when using `cgo`,advanced,intermediate
+donnemartin/system-design-primer#1062,donnemartin/system-design-primer,"Reference link is down at ""How to approach a system design interview question""",beginner,beginner
+anomalyco/opencode#34375,anomalyco/opencode,Latest OpenCode doesnt open or respond,intermediate,intermediate
+macrozheng/mall#567,macrozheng/mall,优惠计算方法 calcPerCouponAmount 是否有问题,intermediate,intermediate
+vercel/next.js#99028,vercel/next.js,router.refresh() silently no-ops on streamed pages — query string in URL triggers it on 16.2.12; all streamed pages on 16.3.5+ (production builds),intermediate,intermediate
+iluwatar/java-design-patterns#2692,iluwatar/java-design-patterns,Microservice pattern: Audit logging,intermediate,intermediate
+Stirling-Tools/Stirling-PDF#8112,Stirling-Tools/Stirling-PDF,"[Bug]: Invalid page-selection input is silently ignored, or rejected, depending on whether it contains ""n""",intermediate,intermediate
+Snailclimb/JavaGuide#2729,Snailclimb/JavaGuide,@Autowired 的注入优先级有误,beginner,beginner
+mrdoob/three.js#34722,mrdoob/three.js,WebGPURenderer: pipeline not rebuilt after swapping to a geometry with a different vertex layout (StorageBufferAttribute -> BufferAttribute),intermediate,intermediate
+spring-projects/spring-boot#50902,spring-projects/spring-boot,Query around release cadence for 4.0.X,intermediate,beginner
+iluwatar/java-design-patterns#3368,iluwatar/java-design-patterns,Hartsel heller bug,intermediate,intermediate
+JuliusBrussee/caveman#1177,JuliusBrussee/caveman,agent-drift: qwen — installed 0.24.7 exceeds pinned 0.24.6,intermediate,intermediate
+JuliusBrussee/caveman#1111,JuliusBrussee/caveman,"AsyncMiddlewareRuntime.observe() shares optimize()'s executor, so a receipt burst can starve it into a false deadline bypass",advanced,intermediate
+anomalyco/opencode#52184,anomalyco/opencode,changelog: v2 releases have no published release notes,intermediate,intermediate
+ollama/ollama#18387,ollama/ollama,More than ten ellipses between Titles and Page Numbers in Table of Contents will cause ollama 'cancel task',intermediate,intermediate
+DietrichGebert/ponytail#774,DietrichGebert/ponytail,ci: hooks tests fail on Windows due to hardcoded bash shebang paths,intermediate,intermediate
+golang/go#62577,golang/go,"cmd/link, cmd/go: emit split DWARF on darwin",advanced,intermediate
+affaan-m/ECC#2900,affaan-m/ECC,AI Skill Shield scan report: affaan-m/ECC (898 skills),intermediate,intermediate
+ollama/ollama#18038,ollama/ollama,Performance regression: llama-server high CPU use when generating tokens.,advanced,intermediate
+gohugoio/hugo#12885,gohugoio/hugo,Improve Docker image,intermediate,intermediate
+elastic/elasticsearch#160286,elastic/elasticsearch,ESQL: avoid monopolizing the coordinator thread during large LOAD_ALL expansion,intermediate,intermediate
+affaan-m/ECC#3266,affaan-m/ECC,Hooks ignore CLAUDE_CONFIG_DIR and write to ~/.claude from a separate Claude config profile,intermediate,intermediate
+JuliusBrussee/caveman#303,JuliusBrussee/caveman,Caveman drifts back to natural prose mid-session. Articles/filler/full sentences leak after ~3-5 turns despite SessionStart + UserPromptSubmit hooks firing every turn with banner.,intermediate,intermediate
+anomalyco/opencode#53224,anomalyco/opencode,Agent ingress HTML-escapes message bodies and silently truncates long bodies,intermediate,intermediate
+spring-projects/spring-boot#51463,spring-projects/spring-boot,Threads are blocked with virtual threads active while waiting for a lock to load classes with JarUrlClassLoader,intermediate,intermediate
+elastic/elasticsearch#159683,elastic/elasticsearch,[CI] AsyncSearchActionIT class failing,intermediate,intermediate
+public-apis/public-apis#7089,public-apis/public-apis,"89 entries have hard 404 links (repo-wide scan, two-pass verified)",intermediate,beginner
+krahets/hello-algo#1651,krahets/hello-algo,一个小建议,beginner,beginner
+gohugoio/hugo#15253,gohugoio/hugo,config/allconfig: Improve resilience of hugo mod init,intermediate,intermediate
+vuejs/vue#8241,vuejs/vue,VueSSRServerPlugin produces a slow-to-parse JSON for large projects,intermediate,intermediate
+n8n-io/n8n#39208,n8n-io/n8n,"Wait webhook CORS preflight omits configured HTTP method, blocking browser resume requests",intermediate,intermediate
+kubernetes/kubernetes#125815,kubernetes/kubernetes,Pod starting order after restart doesn't follow pod priorities,intermediate,intermediate
+vuejs/vue#12335,vuejs/vue,More detailed Vue Source Maps for error tracking,intermediate,intermediate
+MisterBooo/LeetCodeAnimation#39,MisterBooo/LeetCodeAnimation,刷了题欢迎来面试，借楼招人，服务端朋友看过来,beginner,beginner
+donnemartin/system-design-primer#525,donnemartin/system-design-primer,Image not visible in dark mode,beginner,beginner
+affaan-m/ECC#3152,affaan-m/ECC,GateGuard: heredoc bodies are scanned as commands (false positive when writing docs that mention git),beginner,intermediate
+NationalSecurityAgency/ghidra#9062,NationalSecurityAgency/ghidra,Decompiler does not show memory address label for volatile memory accesses,intermediate,intermediate
+doocs/advanced-java#79,doocs/advanced-java,如何设计可以动态扩容缩容的分库分表方案 一个疑问,intermediate,beginner
+golang/go#81133,golang/go,regexp: package documentation mentions All* methods that aren't published yet,beginner,intermediate
+kubernetes/kubernetes#140423,kubernetes/kubernetes,Non-deterministic victim ordering in pod group preemption causes flaky `TestPodGroupEvaluator_SelectVictimsOnDomain`,intermediate,intermediate
+Snailclimb/JavaGuide#1649,Snailclimb/JavaGuide,事务的隔离级别(图文详解),intermediate,intermediate
+vuejs/vue#11856,vuejs/vue,empty slot does not render as default if there is v-if as evaluated false more than 1,intermediate,intermediate
+ollama/ollama#18193,ollama/ollama,"[Cloud] glm-5.3 can enter endless reasoning and eventually abort tasks in both OpenCode and ZCode, while official Z.AI works normally",intermediate,intermediate
+anomalyco/opencode#40495,anomalyco/opencode,"unsupportedParts() ""Inform the user"" instruction overrides system prompt, preventing fallback to vision MCP for non-vision models",intermediate,intermediate
+anomalyco/opencode#42191,anomalyco/opencode,"Local MCP server subprocess launch (Playwright) hangs forever when hosted by Desktop, works fine from a terminal",intermediate,intermediate
+microsoft/TypeScript#51329,microsoft/TypeScript,Allow to emit sourcemaps when printing ast,intermediate,intermediate
+Significant-Gravitas/AutoGPT#9690,Significant-Gravitas/AutoGPT,Improve graph execution timing stats,intermediate,intermediate
+iluwatar/java-design-patterns#300,iluwatar/java-design-patterns,Backends for Frontends pattern,intermediate,intermediate
+yt-dlp/yt-dlp#17757,yt-dlp/yt-dlp,"--cookies-from-browser: Firefox: Custom Profile: ""could not find firefox cookies database""",intermediate,intermediate
+JuliusBrussee/caveman#1053,JuliusBrussee/caveman,Codex Desktop ChatGPT Responses requests omit tools; standalone subscription compression cannot prove MCP recovery,intermediate,intermediate
+yt-dlp/yt-dlp#17704,yt-dlp/yt-dlp,Can't parse data,intermediate,intermediate
+airbnb/javascript#2700,airbnb/javascript,Unexpected end of JSON input,beginner,intermediate
+Snailclimb/JavaGuide#2367,Snailclimb/JavaGuide,双亲委派模型举例不严谨,intermediate,intermediate
+openclaw/openclaw#165595,openclaw/openclaw,[Feature]: Supported agent update path for root-owned Linux installs with exact version and admin handoff,intermediate,intermediate
+microsoft/vscode#252464,microsoft/vscode,UI glitch when terminal is in secondary sidebar and env variables overridden,intermediate,intermediate
+Snailclimb/JavaGuide#491,Snailclimb/JavaGuide,关于 redis 没有事务回滚？,intermediate,intermediate
+anomalyco/opencode#40712,anomalyco/opencode,TUI does not reflow on window resize when launched via a stdio-proxying wrapper (e.g. 1Password CLI's op run),intermediate,intermediate
+react/react#35982,react/react,Bug: react-hooks/refs false positive using IntersectionObserver,intermediate,intermediate
+microsoft/markitdown#2604,microsoft/markitdown,Rahma CV,intermediate,intermediate
+JuliusBrussee/caveman#1099,JuliusBrussee/caveman,agent-drift: pi — installed 1.0.0 exceeds pinned 0.85.1,intermediate,intermediate
+Snailclimb/JavaGuide#2526,Snailclimb/JavaGuide,aof 校验和机制如何证明,beginner,beginner
+fatedier/frp#5486,fatedier/frp,[Feature Request] Log source IP for visitor connections to enable fail2ban integration,intermediate,intermediate
+NationalSecurityAgency/ghidra#9027,NationalSecurityAgency/ghidra,Xtensa loop instruction seems to be ignored,intermediate,intermediate
+infiniflow/ragflow#20478,infiniflow/ragflow,[Performance] MySQL healthcheck config causes ~5s unnecessary startup delay,intermediate,intermediate
+spring-projects/spring-boot#51796,spring-projects/spring-boot,Replace spring-data-jdbc and spring-data-r2dbc links with spring-data-relational,intermediate,intermediate
+NationalSecurityAgency/ghidra#9658,NationalSecurityAgency/ghidra,Loader.validateOptions() is only called by the GUI import dialogs - on purpose?,intermediate,intermediate
+vercel/next.js#99675,vercel/next.js,Prefetched optional catch-all index page is rendered for sibling URLs,intermediate,intermediate
+spring-projects/spring-boot#51766,spring-projects/spring-boot,Update testcontainers javadoc links,beginner,beginner
+anomalyco/opencode#50322,anomalyco/opencode,tui: /models picker hides provider names for config-declared providers,intermediate,intermediate
+JuliusBrussee/caveman#698,JuliusBrussee/caveman,bug: shell install command fails on `npm` >=12,intermediate,intermediate
+vuejs/vue#12965,vuejs/vue,Nested pre tag working exception in vue-template-compiler,intermediate,intermediate
+microsoft/vscode#326538,microsoft/vscode,"Language Models panel mixes LLM providers and chat session agents, appearing as confusing duplicates",intermediate,intermediate
+freeCodeCamp/freeCodeCamp#55363,freeCodeCamp/freeCodeCamp,[api]: handling concurrent user record writes,intermediate,intermediate
+doocs/advanced-java#47,doocs/advanced-java,【补充知识 】缓存与数据库的双写一致性，主动通过mysql binlog 同步redis,intermediate,intermediate
+iluwatar/java-design-patterns#3287,iluwatar/java-design-patterns,"Suggestion to improve flow in ""Intent"" and ""Real-World Example"" sections of Strategy Pattern README",beginner,beginner
+microsoft/markitdown#2526,microsoft/markitdown,"pptx: missing chart data points render as the literal string ""None""",intermediate,intermediate
+NationalSecurityAgency/ghidra#9545,NationalSecurityAgency/ghidra,How do we fix the splitting 32-bit values into 2 hi/lo 16-bit values causing comparisons to not use the larger enum.,intermediate,intermediate
+ollama/ollama#18658,ollama/ollama,glm-4.7: tool-call parser strips a leading/trailing newline from string argument values,intermediate,intermediate
+openclaw/openclaw#165527,openclaw/openclaw,perf(macos): use cron events instead of polling the open status menu,intermediate,intermediate
+spring-projects/spring-boot#51765,spring-projects/spring-boot,Update testcontainers javadoc links,beginner,beginner
+langgenius/dify#43435,langgenius/dify,Code runner replaces {{inputs}} inside Python and JavaScript source literals,intermediate,intermediate
+anomalyco/opencode#40565,anomalyco/opencode,Opencode cannot adjust the intensity of model inference.,intermediate,intermediate
+macrozheng/mall#922,macrozheng/mall,阿里通义灵码的入门文档居然用的是你的代码,beginner,beginner
+TheAlgorithms/Java#6941,TheAlgorithms/Java,[FEATURE REQUEST] One-Time Pad Cipher,intermediate,intermediate
+NationalSecurityAgency/ghidra#9548,NationalSecurityAgency/ghidra,"BSim fails to apply callee name if the callee is external, despite the name being right there in the comparison",intermediate,intermediate
+ollama/ollama#11798,ollama/ollama,Feature Request: Add Audio Input Support for Multimodal Models,intermediate,intermediate
+yt-dlp/yt-dlp#14681,yt-dlp/yt-dlp,"archive.org YouTube video throws ""not archived"" error but loads and plays fine in browsers",intermediate,intermediate
+vuejs/vue#214,vuejs/vue,force re-computation of a computed property,intermediate,intermediate
+golang/go#81811,golang/go,x/tools/gopls: references miss uses in a package's _test.go files until a file of the package is edited,intermediate,intermediate
+JuliusBrussee/caveman#1016,JuliusBrussee/caveman,browse: caveman-browse installs no signal handler — SIGTERM orphans its Chrome and leaks the temp profile dir (same defect as #742),intermediate,intermediate
+doocs/advanced-java#61,doocs/advanced-java,【开源项目维护】一起吗？ | Want to join us?,intermediate,beginner
+microsoft/vscode#339236,microsoft/vscode,VS Code very slow to install on Windows arm64 due to x86 emulation on the installer,intermediate,intermediate
+avelino/awesome-go#1931,avelino/awesome-go,A copy of this list with number of stars/forks/issues provided,beginner,intermediate
+iluwatar/java-design-patterns#3434,iluwatar/java-design-patterns,Translation to Russian,beginner,beginner
+doocs/advanced-java#279,doocs/advanced-java,图裂了，无法查看图片,beginner,beginner
+doocs/advanced-java#138,doocs/advanced-java,[消息队列] mq 中的消息过期失效了,beginner,beginner
+krahets/hello-algo#1550,krahets/hello-algo,feat request: Add LeetCode questions,intermediate,intermediate
+anomalyco/opencode#42170,anomalyco/opencode,Desktop fails to load sessions: no such column: project_id,intermediate,intermediate
+yt-dlp/yt-dlp#17549,yt-dlp/yt-dlp,"Windows filename sanitizer silently replaces ASCII ""/"" with U+29F8 BIG SOLIDUS",beginner,intermediate
+microsoft/markitdown#2438,microsoft/markitdown,HTML/DOCX: pipe characters in table cells break Markdown tables,intermediate,intermediate
+infiniflow/ragflow#20304,infiniflow/ragflow,Search misses OCR terms when indexed and query casing differ,intermediate,intermediate
+ollama/ollama#18361,ollama/ollama,install.sh should not use /usr/share/ollama as home directory for the new ollama user,intermediate,intermediate
+microsoft/vscode#339747,microsoft/vscode,Agents - do not show the table when there are no worktrees to clean up,intermediate,intermediate
+spring-projects/spring-boot#51691,spring-projects/spring-boot,Upgrade to Native Build Tools Plugin 1.1.12,beginner,beginner
+golang/go#60072,golang/go,"cmd/go: add GOMIPS32, GOMIPS64 ISA levels (iii, r1, r2, r5, r6)",intermediate,advanced
+fatedier/frp#5374,fatedier/frp,FRP v0.69.1版本依赖包存在多个安全漏洞，请更新依赖包,intermediate,intermediate
+donnemartin/system-design-primer#1302,donnemartin/system-design-primer,Project Showcase: AI financial chart analysis tool,intermediate,intermediate
+affaan-m/ECC#2641,affaan-m/ECC,"Destructive-command matcher: three git/trailing-boundary bypasses in installed release (fixed on main, needs release + regression tests)",intermediate,intermediate
+spring-projects/spring-boot#51833,spring-projects/spring-boot,Deprecated 'management.tracing.enabled' not considered by @ConditionalOnEnabledTracingExport,intermediate,intermediate
+yt-dlp/yt-dlp#17734,yt-dlp/yt-dlp,MangoTV no video formats found,intermediate,intermediate
+golang/go#79781,golang/go,simd/archsimd: support ARM64 SVE SIMD intrinsics under a GOEXPERIMENT,intermediate,intermediate
+NationalSecurityAgency/ghidra#9588,NationalSecurityAgency/ghidra,Comparison of String objects using ==,intermediate,intermediate
+nodejs/node#52282,nodejs/node,Support loading dynamic addon modules (`.node` files) when embedding the Node.js shared library without needing to link with `node.def`,intermediate,intermediate
+spring-projects/spring-boot#43755,spring-projects/spring-boot,Support Gradle's isolated projects feature,intermediate,intermediate
+golang/go#61628,golang/go,proposal: syscall: extend the interface definition of RawConn to support non-blocking operations,intermediate,intermediate
+yt-dlp/yt-dlp#17738,yt-dlp/yt-dlp,[twitter] Failed to parse JSON when extracting video from X,intermediate,intermediate
+ollama/ollama#17748,ollama/ollama,AMD Radeon 780M Vulkan regression in Ollama >=0.32.10,intermediate,intermediate
+yt-dlp/yt-dlp#17736,yt-dlp/yt-dlp,Failed to resolve 'api.redgifs.com',intermediate,intermediate
+macrozheng/mall#489,macrozheng/mall,用docker启动logstash然后安装插件时提示以下信息.. 怎么解决..,beginner,intermediate
+microsoft/TypeScript#64312,microsoft/TypeScript,"`checkJs` skips `.mjs`/`.cjs` beside a `.d.mts`/`.d.cts`, but not `.js` beside a `.d.ts`",intermediate,intermediate
+Snailclimb/JavaGuide#1849,Snailclimb/JavaGuide,关于Java 并发常见面试题总结（中）“如何保证变量的可见性？”问题的答案详解,intermediate,intermediate
+elastic/elasticsearch#160702,elastic/elasticsearch,[CI] CrossClusterAsyncSearchIT testClusterDetailsAfterCCSWithFailuresOnOneShardOnly failing,intermediate,intermediate
+yt-dlp/yt-dlp#7236,yt-dlp/yt-dlp,ABC iView 'selectedSeries' for single video release,intermediate,intermediate
+anomalyco/opencode#53263,anomalyco/opencode,[FEATURE]: Color context usage and cost by thresholds (sidebar and prompt footer),intermediate,intermediate
+avelino/awesome-go#6684,avelino/awesome-go,"avelino/awesome-go site generator renders contributor-controlled entry text and repository topics through text/template without HTML escaping, causing stored XSS on the production site (CWE-79)",intermediate,intermediate
+elastic/elasticsearch#159108,elastic/elasticsearch,`dense_vector` with `element_type: bfloat16` infers half the dimension count from a base64 value,intermediate,intermediate
+spring-projects/spring-boot#51891,spring-projects/spring-boot,App fails to start when using DevTools and manually configuring JDBC or R2DBC without spring-boot-jdbc or spring-boot-r2dbc,intermediate,intermediate
+golang/go#72739,golang/go,cmd/cgo/internal/test:auto-pie: TestCthread failures,advanced,advanced
+freeCodeCamp/freeCodeCamp#70622,freeCodeCamp/freeCodeCamp,Implement a Stack: peek tests accept changes to the collection,intermediate,intermediate
+yt-dlp/yt-dlp#17735,yt-dlp/yt-dlp,No more downloads from www.onf.ca,intermediate,intermediate
+gohugoio/hugo#5341,gohugoio/hugo,i18n: Add compatibility for Transifex (industry standard provider for open source translations),beginner,intermediate
+krahets/hello-algo#1816,krahets/hello-algo,请问下 k 神，所有的图片都是自己做的，还是通过工具生成的呀,beginner,beginner
+spring-projects/spring-boot#51757,spring-projects/spring-boot,Upgrade to Lettuce 7.7.0.RELEASE,beginner,beginner
+spring-projects/spring-boot#51761,spring-projects/spring-boot,Upgrade to Versions Maven Plugin 2.22.0,beginner,beginner
+iluwatar/java-design-patterns#2681,iluwatar/java-design-patterns,Microservice pattern: Messaging,intermediate,intermediate
+anomalyco/opencode#52715,anomalyco/opencode,"permissions: external_directory save scope widens to a repository above the project, offering $HOME as a standing grant",intermediate,intermediate
+NousResearch/hermes-agent#126063,NousResearch/hermes-agent,"[Feature]: Ship a pre-installed ""Hermes Ops"" expert profile the main agent can consult + a proactive update reporter",intermediate,intermediate
+spring-projects/spring-boot#51616,spring-projects/spring-boot,Custom Spring Security firewall is lost when using spring-boot-cloudfoundry and Actuator in a reactive web application,intermediate,intermediate
+doocs/advanced-java#81,doocs/advanced-java,关于distributed-system-request-sequence.md（分布式服务接口请求的顺序性如何保证？）文章中的问题,intermediate,intermediate
+react/react#17256,react/react,"""NotFoundError: Failed to execute 'removeChild' on 'Node'"" when using React.Fragment <></> with Chrome extension which does not modify the DOM tree below the root div of the React app",intermediate,intermediate
+fatedier/frp#5460,fatedier/frp,Hide connection pool errors when TCP Multiplexing is enabled,intermediate,intermediate
+affaan-m/ECC#3408,affaan-m/ECC,"ci(catalog): README tree skills unchecked, second tree block never read, and AGENTS.md undercounts pass",intermediate,intermediate
+anomalyco/opencode#40715,anomalyco/opencode,Desktop app stuck on ECONNREFUSED 127.9.9.9:443 after clean installation,intermediate,intermediate
+TheAlgorithms/Java#7452,TheAlgorithms/Java,Reorganize the catch-all `others/` and `misc/` packages into thematic packages,intermediate,intermediate
+NousResearch/hermes-agent#133286,NousResearch/hermes-agent,[Telegram gateway] conversations freeze until manual poke - silent stall on provider retry + flood,intermediate,intermediate
+anomalyco/opencode#53304,anomalyco/opencode,boundImages recomputes the strip set per request — stripped images flip back to live and invalidate the prompt cache,intermediate,intermediate
+iluwatar/java-design-patterns#2678,iluwatar/java-design-patterns,Microservice pattern: Service template,intermediate,intermediate
+iluwatar/java-design-patterns#3361,iluwatar/java-design-patterns,"Suggestion to improve flow in ""Intent""",intermediate,intermediate
+JuliusBrussee/caveman#967,JuliusBrussee/caveman,opencode-go anthropic-messages models: the auth scheme through the OpenAI-compat mount is not tested,intermediate,intermediate
+macrozheng/mall#421,macrozheng/mall,商品销量的设计 sale 字段,intermediate,beginner
+vercel/next.js#99656,vercel/next.js,UX Bug on Mobile and Tablet: Hamburger menu stays open and overlaps with the Search modal,intermediate,intermediate
+mrdoob/three.js#34646,mrdoob/three.js,WebGPURenderer: a geometry's buffers are only freed on its first dispose(),intermediate,intermediate
+infiniflow/ragflow#19983,infiniflow/ragflow,[Feature Request]: add Vastbase  as document engine and metadata database,intermediate,intermediate
+doocs/advanced-java#135,doocs/advanced-java,文档内点击链接404,beginner,beginner
+microsoft/vscode#339694,microsoft/vscode,File names not showing in approval card,intermediate,intermediate
+vuejs/vue#7209,vuejs/vue,Await async component lifecycle hooks,intermediate,intermediate
+golang/go#81614,golang/go,"simd: exporter compiles, but every importer fails with ""could not import simd/internal/bridge"" when a package API uses a simd type",intermediate,intermediate
+iluwatar/java-design-patterns#2685,iluwatar/java-design-patterns,Microservice pattern: Client-side service discovery,intermediate,intermediate
+Snailclimb/JavaGuide#613,Snailclimb/JavaGuide,不同常量池在 JDK6~8 中存放的位置,intermediate,intermediate
+gohugoio/hugo#13280,gohugoio/hugo,tpl/tplimpl: Add Mastodon and PeerTube shortcodes,intermediate,intermediate
+microsoft/vscode#305608,microsoft/vscode,High energy consumption when scrolling in an editor,intermediate,intermediate
+NousResearch/hermes-agent#132817,NousResearch/hermes-agent,"Pain cluster: one transient 429 / entitlement cooldown benches a credential for days — no reset-time probe, no visibility, no pointer to `hermes auth reset` (13 reports this week)",intermediate,intermediate
+anomalyco/opencode#53294,anomalyco/opencode,"agents: browser tools exposed despite agent-level ""deny browser"" when the agent has execute",intermediate,intermediate
+trekhleb/javascript-algorithms#1205,trekhleb/javascript-algorithms,Proposal to Add Secure Hash Algorithm ( SHA-1 ) Hashing Algorithm,intermediate,intermediate
+yt-dlp/yt-dlp#11563,yt-dlp/yt-dlp,[YouTube] Expose metadata to differentiate between an upcoming livestream and video premiere,intermediate,intermediate
+vuejs/vue#10480,vuejs/vue,VueComponent instances retained after calling vm.$destroy,intermediate,intermediate
+golang/go#15735,golang/go,net: add mechanism to wait for readability on a TCPConn,intermediate,intermediate
+openclaw/openclaw#89210,openclaw/openclaw,Expose WhatsApp watchdog tuning (messageTimeoutMs/transportTimeoutMs/watchdogCheckMs) in gateway config — currently the 30-min app-silent threshold is hardcoded,intermediate,intermediate
+gohugoio/hugo#15087,gohugoio/hugo,"Add a ""feature switcher"" for performance",intermediate,intermediate
+microsoft/TypeScript#64464,microsoft/TypeScript,First incremental rebuild after a clean build is up to 75× slower than a full check,intermediate,intermediate
+yt-dlp/yt-dlp#11995,yt-dlp/yt-dlp,WeTV: Corrupted Video and Missing Audio,intermediate,intermediate
+ollama/ollama#4684,ollama/ollama,Model download finally fails behind company firewall,intermediate,intermediate
+spring-projects/spring-boot#51811,spring-projects/spring-boot,Upgrade to Prometheus Client 1.9.0,beginner,beginner
+fatedier/frp#5288,fatedier/frp,Building docker container fails,intermediate,intermediate
+yt-dlp/yt-dlp#9581,yt-dlp/yt-dlp,Add sound.orf.at support,intermediate,intermediate
+krahets/hello-algo#1679,krahets/hello-algo,"extra ""the"" in en/docs/chapter_computational_complexity/index.md",beginner,intermediate
+mrdoob/three.js#32969,mrdoob/three.js,"TSL: Missing features, memory leaks, unexpected behavior",intermediate,intermediate
+microsoft/markitdown#2401,microsoft/markitdown,"Feature Request: Support for Apple iWork files (Pages, Numbers, Keynote)",intermediate,intermediate
+macrozheng/mall#609,macrozheng/mall,windows下elasticsearch启动失败（备注：本地安装的jdk是11）,beginner,beginner
+mrdoob/three.js#34753,mrdoob/three.js,WebGPURenderer: canvas render pass keeps `timestampWrites` after `trackTimestamp` is disabled,intermediate,intermediate
+DietrichGebert/ponytail#662,DietrichGebert/ponytail,Mode flag is one machine-global file — concurrent sessions in different repos overwrite each other's mode,intermediate,intermediate
+openclaw/openclaw#130061,openclaw/openclaw,[Bug]: GPT-5.6 Responses lacks explicit cache breakpoints,intermediate,intermediate
+golang/go#81641,golang/go,x/tools/gopls: opening a file in a filtered nested module creates an extra view,intermediate,intermediate
+microsoft/TypeScript#64433,microsoft/TypeScript,empty mappings in .d.ts.map for export default of a non-identifier expression,intermediate,intermediate
+anomalyco/opencode#53274,anomalyco/opencode,"Built-in prompts inconsistently omit the ""answer in the user's language"" rule: /review, /init and subagents reply in English to a Chinese conversation",intermediate,intermediate
+doocs/advanced-java#40,doocs/advanced-java,消息队列，为什么使用消息队列？文章中的一个mq使用建议：,beginner,beginner
+macrozheng/mall#507,macrozheng/mall,大四菜鸟求指导,beginner,beginner
+EbookFoundation/free-programming-books#13260,EbookFoundation/free-programming-books,Add JSON Diff to the list,intermediate,intermediate
+infiniflow/ragflow#20553,infiniflow/ragflow,Langfuse keys are stored per-user instead of per-tenant despite the entity/column being named for tenants,intermediate,intermediate
+NationalSecurityAgency/ghidra#9613,NationalSecurityAgency/ghidra,"Decompile fails with ""Decompiler process died""",advanced,advanced
+JuliusBrussee/caveman#1115,JuliusBrussee/caveman,Help on setting up this skill for android,intermediate,intermediate
+JuliusBrussee/caveman#947,JuliusBrussee/caveman,Breaks Claude Code Remote Control,intermediate,intermediate
+spring-projects/spring-boot#51818,spring-projects/spring-boot,Upgrade to RabbitMQ Client 5.36.0,beginner,beginner
+anomalyco/opencode#51764,anomalyco/opencode,Anthropic system updates reject otherwise recoverable tool history,intermediate,intermediate
+yt-dlp/yt-dlp#11932,yt-dlp/yt-dlp,[SOOP] Playback glitch due to mismatched resolutions,intermediate,intermediate
+anomalyco/opencode#40078,anomalyco/opencode,"Free usage exceeded, subscribe to Go",intermediate,intermediate
+gohugoio/hugo#15267,gohugoio/hugo,Bump fileCacheEntryVersion in transform.ToMath,beginner,intermediate
+anomalyco/opencode#40486,anomalyco/opencode,[Bug] Windows 10: Models get stuck in thinking status and terminate without response,intermediate,intermediate
+golang/go#75569,golang/go,cmd/compile: internal compiler error with GOEXPERIMENT=cgocheck2 on github.com/leodido/go-urn,advanced,advanced
+react/react#37733,react/react,[DevTools Bug]: Profiler crashes for a controlled `memo(forwardRef(...))` component when recording render reasons,intermediate,intermediate
+langgenius/dify#43453,langgenius/dify,[Bug] Agent LLM gateway stream remains open when consumption exits early,intermediate,intermediate
+anomalyco/opencode#40506,anomalyco/opencode,[FEATURE]: Simplify LLM provider setup with OmniRoute integration,intermediate,intermediate
+yt-dlp/yt-dlp#12545,yt-dlp/yt-dlp,Error Downloading Facebook /share/ URL,intermediate,intermediate
+microsoft/markitdown#2530,microsoft/markitdown,DOCX: Heading 7-9 styles lose heading structure entirely (render as plain paragraphs),intermediate,intermediate
+gin-gonic/gin#2748,gin-gonic/gin,[feature] option for Server-Timing header in static middleware,intermediate,intermediate
+JuliusBrussee/caveman#1094,JuliusBrussee/caveman,"Claude Code interactive: derived cache epoch gate busts at the system component every turn, 0 tokens compressed across 117 requests",intermediate,intermediate
+nodejs/node#42291,nodejs/node,stream.readable._read() description is unclear,beginner,intermediate
+avelino/awesome-go#5846,avelino/awesome-go,Add a Back to top button,intermediate,intermediate
+nodejs/node#57364,nodejs/node,Unexpected server incoming requests queue after Node.js 20 version (possible performance regression),advanced,intermediate
+spring-projects/spring-boot#51755,spring-projects/spring-boot,Upgrade to Elasticsearch Client 9.5.3,beginner,beginner
+anomalyco/opencode#44094,anomalyco/opencode,"core: compaction ignores agents.compaction.model since ""shared model request"" refactor (v2 beta)",intermediate,intermediate
+yt-dlp/yt-dlp#15382,yt-dlp/yt-dlp,[ie/Mxplayer] Failed to Download `/seasons/` `400 bad request`,intermediate,intermediate
+elastic/elasticsearch#160956,elastic/elasticsearch,[CI] ES93HnswBFloat16VectorsFormatTests testRandomWithUpdatesAndGraph failing,intermediate,intermediate
+ollama/ollama#18416,ollama/ollama,"`ollama create --quantize` from safetensors leaves the unquantized F16 blob in `blobs/` (unreferenced, never removed)",intermediate,intermediate
+trekhleb/javascript-algorithms#1095,trekhleb/javascript-algorithms,Unhandled Edge Case in Binary Search Implementation,intermediate,intermediate
+vercel/next.js#99568,vercel/next.js,Layout redirect loops on Link navigation despite returned middleware response (follow-up to #76308),intermediate,intermediate
+TheAlgorithms/Java#7630,TheAlgorithms/Java,[FEATURE REQUEST] Add Learning With Errors (LWE) encryption (Regev),intermediate,intermediate
+nilbuild/developer-roadmap#10232,nilbuild/developer-roadmap,Docs: Formatting cleanup in README roadmap links,beginner,beginner
+NationalSecurityAgency/ghidra#9584,NationalSecurityAgency/ghidra,Support for x86 TSX-NI Suspend Load Address Tracking,intermediate,intermediate
+golang/go#81955,golang/go,"cmd/compile: specialize instantiations of ""certain"" generic functions",intermediate,intermediate
+fatedier/frp#5298,fatedier/frp,Cannot build frp v0.68.1 for Android,intermediate,intermediate
+golang/go#75220,golang/go,debug/pe: pe.Open fails on object files produced by llvm-mingw 21 [1.24 backport],intermediate,beginner
+iluwatar/java-design-patterns#1336,iluwatar/java-design-patterns,Domain-Oriented Microservice Architecture (DOMA),intermediate,intermediate
+microsoft/TypeScript#64593,microsoft/TypeScript,Reverse-mapped inference exposes private members as public; since #63932 this rejects `f<T>() as C`,intermediate,intermediate
+NationalSecurityAgency/ghidra#9686,NationalSecurityAgency/ghidra,"Security: conditional code execution surfaces — Swift demangler path, TraceRMI agent channel, SevenZipJBinding parser reachability",advanced,intermediate
+anomalyco/opencode#36383,anomalyco/opencode,"Fresh install crashes on launch: GPU process dies repeatedly (exit_code=-2147483645), no window ever appears",intermediate,intermediate
+openclaw/openclaw#146791,openclaw/openclaw,[Bug]: App Store iOS 2026.9.2 connects but never publishes APNs relay registration,intermediate,intermediate
+NationalSecurityAgency/ghidra#9533,NationalSecurityAgency/ghidra,ARM Native Components Missing from 12.1.3,intermediate,intermediate
+microsoft/TypeScript#64300,microsoft/TypeScript,"[TS7 LSP] Panic on document URI ""file://"" (empty path): vfs: path ""tsconfig.json"" is not absolute",advanced,intermediate
+kubernetes/kubernetes#142572,kubernetes/kubernetes,MemoryQoS TieredReservation: pod-level memory.low is not updated on a request-only in-place memory resize,intermediate,intermediate
+golang/go#81646,golang/go,x/net/http2: New wrapped http2 implementation (go1.27+) missing single flight mechanism,intermediate,intermediate
+microsoft/TypeScript#29400,microsoft/TypeScript,generic function parameter infers boolean as true,intermediate,intermediate
+kubernetes/kubernetes#140844,kubernetes/kubernetes,kubelet copies IPv6 link-local scoped nameservers from the node resolv.conf into pods where they cannot work,intermediate,intermediate

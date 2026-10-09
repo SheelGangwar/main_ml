@@ -1,0 +1,874 @@
+issue_id,repo_name,technologies,hybrid_concepts,labels
+5663494040,scikit-learn/scikit-learn,Go|NumPy|Python|scikit-learn,API|machine learning|testing,new feature|needs decision|array api
+5649311425,scikit-learn/scikit-learn,Python|scikit-learn,machine learning,needs investigation
+5632968734,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,debugging|machine learning|testing,bug|needs triage
+5627967929,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,API|concurrency|debugging|machine learning|testing,bug|needs triage
+5627473097,scikit-learn/scikit-learn,Express|Go|Linux|NumPy|Pandas|Python|scikit-learn,API|concurrency|debugging|frontend|machine learning,bug|needs decision
+5625793726,scikit-learn/scikit-learn,Linux|NumPy|Pandas|Python|scikit-learn,API|concurrency|configuration|debugging|frontend|machine learning,bug|needs work|metadata routing
+5611877032,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,API|debugging|machine learning,bug
+5583670545,scikit-learn/scikit-learn,NumPy|Python|scikit-learn,API|documentation|machine learning|testing,documentation|needs triage
+5583571423,scikit-learn/scikit-learn,Python|scikit-learn,debugging|documentation|machine learning,bug|needs triage
+5583173037,scikit-learn/scikit-learn,Python|scikit-learn,debugging|machine learning|testing,bug|needs triage
+5579195010,scikit-learn/scikit-learn,Linux|NumPy|Pandas|Python|scikit-learn,API|concurrency|debugging|frontend|machine learning,bug|module:linear_model|numerical stability
+5575446698,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,debugging|machine learning|testing,bug|needs triage
+5541906908,scikit-learn/scikit-learn,NumPy|Python|scikit-learn,data processing|debugging|documentation|machine learning|testing,documentation|needs triage
+5541186696,scikit-learn/scikit-learn,C|Docker|Kubernetes|Linux|NumPy|Python|scikit-learn,concurrency|configuration|documentation|frontend|machine learning|performance,needs decision
+5536757529,scikit-learn/scikit-learn,NumPy|Python|scikit-learn,debugging|machine learning,bug
+5533567089,scikit-learn/scikit-learn,Python|scikit-learn,debugging|machine learning,bug
+5521941156,scikit-learn/scikit-learn,HTML|NumPy|Pandas|Python|scikit-learn,API|concurrency|configuration|debugging|machine learning,bug|needs triage
+5506205805,scikit-learn/scikit-learn,Linux|NumPy|Pandas|Python|scikit-learn,frontend|machine learning|testing,needs triage
+5503380208,scikit-learn/scikit-learn,Python|scikit-learn,documentation|machine learning|testing,documentation
+5500528961,scikit-learn/scikit-learn,Python|scikit-learn,configuration|documentation|machine learning,documentation
+5496414970,scikit-learn/scikit-learn,C|Python|scikit-learn,debugging|machine learning,bug|low priority
+5486484503,scikit-learn/scikit-learn,Python,documentation|machine learning|testing,documentation
+5483071885,scikit-learn/scikit-learn,Python,machine learning,
+5481517487,scikit-learn/scikit-learn,NumPy|Python|scikit-learn,API|debugging|machine learning|testing,numerical stability
+5458551278,scikit-learn/scikit-learn,GitHub|Linux|Python|scikit-learn,debugging|frontend|logging|machine learning|version control,
+5457229279,scikit-learn/scikit-learn,Python|scikit-learn,machine learning,needs triage
+5457203621,scikit-learn/scikit-learn,Python|scikit-learn,machine learning,needs triage
+5445807821,scikit-learn/scikit-learn,NumPy|Python|scikit-learn,machine learning|testing,new feature|needs triage
+5434494537,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,API|data processing|debugging|machine learning,new feature
+5434190269,scikit-learn/scikit-learn,Python|scikit-learn,deployment|machine learning,new feature|needs triage
+5434157024,scikit-learn/scikit-learn,Python|scikit-learn,documentation|machine learning|performance,new feature|needs triage
+5433556582,scikit-learn/scikit-learn,C|NumPy|Pandas|Python|scikit-learn,API|concurrency|debugging|frontend|machine learning,bug|module:linear_model
+5419800258,scikit-learn/scikit-learn,Linux|Python,data analysis|frontend|machine learning|testing,
+5411299013,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,debugging|machine learning|performance,needs triage
+5410715987,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,machine learning,needs triage
+5390136286,scikit-learn/scikit-learn,Python|scikit-learn,API|data processing|debugging|documentation|machine learning,needs triage
+5390127739,scikit-learn/scikit-learn,Python|scikit-learn,debugging|documentation|machine learning,needs triage
+5390124726,scikit-learn/scikit-learn,Python|scikit-learn,data processing|debugging|documentation|machine learning,needs triage
+5374815063,scikit-learn/scikit-learn,Python|scikit-learn,configuration|machine learning|testing,needs work|rfc|needs investigation|metadata routing
+5374249682,scikit-learn/scikit-learn,Python|scikit-learn,data processing|documentation|machine learning,documentation|module:preprocessing
+5371281208,scikit-learn/scikit-learn,Python|scikit-learn,debugging|deployment|machine learning|testing,needs investigation
+5362445968,scikit-learn/scikit-learn,Linux|Pandas|Python,frontend|machine learning|testing,needs triage
+5355320742,scikit-learn/scikit-learn,NumPy|Pandas|Python|scikit-learn,API|debugging|machine learning,bug|needs triage
+5347935598,scikit-learn/scikit-learn,C|NumPy|Pandas|Python|scikit-learn,API|debugging|machine learning,bug
+5339010460,scikit-learn/scikit-learn,Pandas|Python|scikit-learn,debugging|documentation|machine learning,documentation|needs decision
+5323474919,scikit-learn/scikit-learn,C|Linux|Python|scikit-learn,build system|concurrency|configuration|debugging|deployment|frontend|machine learning|performance|testing,build / ci|performance
+5313966408,scikit-learn/scikit-learn,Linux|Python|scikit-learn,build system|debugging|documentation|frontend|machine learning|performance,bug|build / ci|needs decision|needs benchmarks
+5310519153,scikit-learn/scikit-learn,NumPy|Python|scikit-learn,documentation|machine learning,documentation|needs triage
+5302651224,scikit-learn/scikit-learn,Python|scikit-learn,machine learning,needs reproducible code
+5301273614,scikit-learn/scikit-learn,Linux|NumPy|Pandas|Python|scikit-learn,API|concurrency|data processing|debugging|frontend|machine learning,bug
+5575479096,pallets/flask,Flask|Python,configuration|debugging|documentation,docs
+5457243616,pallets/flask,Flask|Python,,rejected ai
+5433699802,pallets/flask,Flask|Python,,
+5433680956,pallets/flask,Flask|Python,,
+5303942524,pallets/flask,Flask|Python,documentation,
+5279697791,pallets/flask,Flask|Python,API|testing,
+5235325319,pallets/flask,Flask|Python,configuration|security,
+5101924037,pallets/flask,Flask|GitHub|Python,configuration|debugging|documentation|version control,
+5098107759,pallets/flask,Flask|Python,backend|concurrency|debugging|documentation|logging|testing,
+5097995999,pallets/flask,Flask|Python,concurrency|database,
+5074867458,pallets/flask,Flask|Python,caching|testing,
+5059181088,pallets/flask,Flask|Python,configuration|machine learning|testing,
+5035513947,pallets/flask,C|Flask|Python,backend|documentation|testing,
+4983641457,pallets/flask,Flask|Python,debugging|documentation,
+4878017272,pallets/flask,Flask|Python,backend|configuration|testing,
+4868412066,pallets/flask,Flask|Python,testing,
+4792296146,pallets/flask,Flask|Python,testing,
+4779678879,pallets/flask,C|Flask|Python,backend|debugging|deployment|logging|testing,
+4729906502,pallets/flask,Flask|Python,API|database,
+4673717329,pallets/flask,Flask|GitHub|JavaScript|Python,backend|documentation|frontend|version control,
+4651664955,pallets/flask,Flask|Python,authentication|configuration|debugging|testing,
+4651592895,pallets/flask,Flask|NumPy|Pandas|Python|scikit-learn,API|backend|concurrency|deployment,
+4651590446,pallets/flask,Flask|Python,concurrency,
+4640521115,pallets/flask,Flask|Python,debugging|testing,
+4618840790,pallets/flask,Flask|Python,,
+4618839812,pallets/flask,Flask|Python,,
+4618838696,pallets/flask,Flask|Python,,
+4618837840,pallets/flask,Flask|Python,,
+4618836201,pallets/flask,Flask|Python,,
+4596655068,pallets/flask,Flask|Python,database|debugging|logging,
+4579894796,pallets/flask,Flask|Python,,
+4501597839,pallets/flask,Flask|Python,API|documentation,
+4472902129,pallets/flask,Flask|Python,debugging,
+4460193531,pallets/flask,Flask|Python,configuration|debugging|frontend,
+4280524295,pallets/flask,Flask|Python,machine learning|testing,
+4280483131,pallets/flask,Flask|Python,machine learning|testing,
+4280477338,pallets/flask,Flask|Python,machine learning|testing,
+4280472963,pallets/flask,Flask|Python,machine learning|testing,
+4257048423,pallets/flask,Flask|Python,,
+4240346845,pallets/flask,Flask|Python,security,
+4229315467,pallets/flask,Flask|Python,configuration|documentation|testing,
+4228092280,pallets/flask,Flask|Python,,
+4202844094,pallets/flask,C|Flask|Python,security,
+4155980401,pallets/flask,Flask|Python,API|backend|debugging,
+4126162553,pallets/flask,Flask|Python,debugging|testing,
+4076432817,pallets/flask,Flask|Linux|Python|Redis,backend|caching|documentation|frontend,
+4035256126,pallets/flask,Flask|Go|Python,,
+3980888493,pallets/flask,Flask|Python,configuration|debugging|documentation,
+3972836402,pallets/flask,Flask|Python,security,
+3972254400,pallets/flask,Django|Flask|Python,debugging|security,
+5671616833,fastapi/fastapi,AWS|FastAPI|Python,API|authentication|concurrency|configuration|database|documentation|frontend|serialization,
+5644286779,fastapi/fastapi,C|FastAPI|GitHub|Linux|Python,API|concurrency|configuration|database|debugging|documentation|frontend|serialization|version control,bug
+5546669461,fastapi/fastapi,FastAPI|Linux|Python,API|caching|concurrency|database|debugging|frontend|logging|serialization,
+5457243777,fastapi/fastapi,FastAPI|Python,API|concurrency|database|frontend|serialization,
+5423615347,fastapi/fastapi,FastAPI|Python,API|concurrency|database|frontend|serialization|testing,
+5396335531,fastapi/fastapi,FastAPI|Python,API|backend|concurrency|configuration|database|frontend|machine learning|serialization|testing,
+5388731018,fastapi/fastapi,FastAPI|Python,API|concurrency|database|deployment|frontend|machine learning|serialization,
+5354821532,fastapi/fastapi,FastAPI|Python,API|caching|concurrency|database|frontend|serialization,
+5262003151,fastapi/fastapi,FastAPI|Python,API|backend|concurrency|database|debugging|deployment|file handling|frontend|logging|security|serialization,
+5262002906,fastapi/fastapi,C|CSS|FastAPI|HTML|JavaScript|Python,API|backend|concurrency|configuration|database|documentation|frontend|machine learning|security|serialization|testing,
+5241619827,fastapi/fastapi,FastAPI|GitHub|Python,API|backend|concurrency|database|documentation|frontend|machine learning|serialization|testing|version control,
+5228756197,fastapi/fastapi,FastAPI|Python,API|concurrency|database|frontend|serialization,
+5097983480,fastapi/fastapi,FastAPI|Python,API|authentication|backend|concurrency|database|frontend|serialization,
+5058291132,fastapi/fastapi,FastAPI|Python,API|concurrency|database|debugging|frontend|serialization|testing,
+4956219102,fastapi/fastapi,FastAPI|Python,API|concurrency|database|documentation|frontend|serialization,
+4900328985,fastapi/fastapi,CSS|FastAPI|GitHub|HTML|Python,API|concurrency|configuration|database|debugging|documentation|frontend|machine learning|serialization|testing|version control,bug
+4864140127,fastapi/fastapi,FastAPI|Python,API|caching|concurrency|database|frontend|serialization|testing,
+4852026509,fastapi/fastapi,FastAPI|GitHub|Kubernetes|Python,API|authentication|caching|concurrency|database|debugging|documentation|frontend|performance|serialization|version control,
+4761459799,fastapi/fastapi,FastAPI|Python,API|concurrency|database|frontend|serialization,
+4749309885,fastapi/fastapi,FastAPI|Python,API|concurrency|database|frontend|serialization,
+4749303087,fastapi/fastapi,FastAPI|Python,API|concurrency|database|frontend|serialization,
+5676161001,facebook/react,JavaScript|React,caching|debugging|documentation|frontend|logging|performance,
+5675575128,facebook/react,GitHub|JavaScript|React,configuration|database|debugging|frontend|version control,type: bug|status: unconfirmed|component: developer tools
+5668868899,facebook/react,JavaScript|MySQL|Next.js|React,backend|concurrency|database|debugging|deployment|frontend|logging,
+5667688711,facebook/react,JavaScript|React|TypeScript,configuration|debugging|frontend|performance|testing,type: bug|status: unconfirmed
+5650365307,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5641114501,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5638434566,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5634183358,facebook/react,JavaScript|React,debugging|deployment|frontend,
+5627013025,facebook/react,JavaScript|Next.js|React,debugging|frontend,
+5626131471,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5619207769,facebook/react,GitHub|JavaScript|React,database|debugging|frontend|version control,type: bug|status: unconfirmed|component: developer tools
+5611512681,facebook/react,GitHub|JavaScript|React,database|debugging|frontend|version control,type: bug|status: unconfirmed|component: developer tools
+5606629415,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5598601899,facebook/react,JavaScript|React,API|concurrency|debugging|file handling|frontend|testing,status: unconfirmed
+5597327710,facebook/react,JavaScript|Next.js|React,debugging|frontend|logging|testing,
+5585512606,facebook/react,JavaScript|React,API|frontend,status: unconfirmed
+5564919018,facebook/react,HTML|JavaScript|Next.js|React,backend|caching|concurrency|debugging|deployment|frontend|machine learning,status: unconfirmed
+5561008622,facebook/react,GitHub|JavaScript|React,database|debugging|frontend|version control,type: bug|status: unconfirmed|component: developer tools
+5550705546,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5545485948,facebook/react,JavaScript|React,backend|concurrency|debugging|frontend,status: unconfirmed
+5545196348,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5533915124,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5529363522,facebook/react,JavaScript|Next.js|React,debugging|deployment|frontend|logging,
+5514070958,facebook/react,Bootstrap|JavaScript|React,backend|concurrency|deployment|frontend|performance,
+5513958439,facebook/react,JavaScript|React,debugging|deployment|frontend,
+5512965618,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5495999726,facebook/react,C|Go|JavaScript|React,API|debugging|frontend|logging,
+5492317097,facebook/react,JavaScript|React,backend|debugging|frontend,status: unconfirmed
+5483742162,facebook/react,GitHub|JavaScript|React,database|debugging|deployment|frontend|performance|version control,type: bug|status: unconfirmed|component: developer tools
+5482050268,facebook/react,JavaScript|React|Rust,backend|debugging|frontend|performance,
+5474710582,facebook/react,GitHub|JavaScript|React,backend|database|debugging|deployment|frontend|version control,type: bug|status: unconfirmed|component: developer tools
+5472135400,facebook/react,CSS|JavaScript|React,debugging|documentation|frontend,status: unconfirmed
+5450673813,facebook/react,C|JavaScript|Linux|React,concurrency|debugging|deployment|frontend|performance|testing,
+5444779094,facebook/react,GitHub|JavaScript|Node.js|React,API|backend|database|debugging|documentation|frontend|testing|version control,type: bug|status: unconfirmed|component: developer tools
+5444244244,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5440981171,facebook/react,HTML|JavaScript|Next.js|React,backend|caching|debugging|frontend|machine learning,status: unconfirmed
+5439942659,facebook/react,Go|JavaScript|React,backend|debugging|frontend,
+5436683197,facebook/react,JavaScript|React,debugging|frontend,status: unconfirmed
+5435195528,facebook/react,HTML|JavaScript|Next.js|React,backend|frontend|machine learning,status: unconfirmed
+5432824424,facebook/react,CSS|Go|JavaScript|Next.js|React,debugging|deployment|documentation|frontend|testing,status: unconfirmed
+5431572885,facebook/react,JavaScript|React,API|database|debugging|deployment|documentation|frontend,status: unconfirmed
+5427927350,facebook/react,JavaScript|React,debugging|deployment|frontend|machine learning|testing,
+5427926772,facebook/react,JavaScript|React,backend|debugging|frontend|machine learning|testing,
+5427926195,facebook/react,JavaScript|React,debugging|frontend|machine learning|testing,
+5427925681,facebook/react,JavaScript|React,debugging|deployment|frontend|machine learning|testing,
+5427925245,facebook/react,JavaScript|React,API|debugging|deployment|frontend|machine learning|testing,
+5427924694,facebook/react,JavaScript|React,backend|configuration|debugging|deployment|frontend|machine learning|security|testing,
+5425082049,facebook/react,JavaScript|Next.js|React,database|debugging|frontend|performance|testing,type: bug|status: unconfirmed
+5424240531,facebook/react,Git|HTML|JavaScript|Next.js|React,backend|debugging|deployment|frontend|machine learning|testing|version control,status: unconfirmed
+5418745253,facebook/react,JavaScript|React,debugging|frontend|testing,
+5680034859,nodejs/node,JavaScript|Linux|Node.js,debugging|frontend,
+5679972655,nodejs/node,JavaScript|Linux|Node.js|SQLite,database|debugging|frontend,sqlite
+5677950398,nodejs/node,HTML|JavaScript|Linux|Node.js,frontend|machine learning,
+5673181314,nodejs/node,C|JavaScript|Linux|Node.js,concurrency|debugging|frontend|testing,
+5672548891,nodejs/node,JavaScript|Linux|Node.js,debugging|documentation|frontend,ffi
+5666961551,nodejs/node,C|C++|Go|JavaScript|Linux|Node.js|SQLite,API|caching|database|frontend|networking|performance,feature request|node-api
+5666434070,nodejs/node,JavaScript|Linux|Node.js,debugging|frontend,confirmed-bug|stdio
+5666113547,nodejs/node,JavaScript|Linux|Node.js|TypeScript,concurrency|debugging|frontend|testing,
+5664894515,nodejs/node,C|JavaScript|Linux|Node.js,caching|concurrency|configuration|debugging|deployment|frontend,
+5657259169,nodejs/node,JavaScript|Linux|Node.js,authorization|debugging|frontend,ffi
+5652533557,nodejs/node,Go|JavaScript|Linux|Node.js,API|backend|caching|database|deployment|frontend|logging|machine learning|performance|testing,net|libuv
+5642090867,nodejs/node,JavaScript|Linux|Node.js,debugging|frontend,ffi
+5641841154,nodejs/node,JavaScript|Linux|Node.js|SQL|SQLite,database|debugging|frontend,sqlite
+5631540391,nodejs/node,Docker|JavaScript|Jenkins|Linux|Node.js,deployment|documentation|frontend|networking|testing,feature request|alpine
+5630427468,nodejs/node,Go|JavaScript|Linux|Node.js,build system|deployment|frontend,build|v8 engine|meta
+5625602640,nodejs/node,JavaScript|Linux|Node.js,concurrency|debugging|documentation|frontend,ffi
+5624306243,nodejs/node,Bootstrap|C|JavaScript|Linux|Node.js|TensorFlow,API|caching|concurrency|configuration|debugging|frontend|machine learning|networking|performance|security|testing,feature request
+5617343192,nodejs/node,JavaScript|Linux|Node.js|SQL|SQLite,backend|database|debugging|frontend,question|sqlite
+5611594455,nodejs/node,C|JavaScript|Linux|Node.js,frontend|testing,windows
+5611594249,nodejs/node,C|Git|JavaScript|Linux|Node.js,API|backend|frontend|testing|version control,
+5609974249,nodejs/node,JavaScript|Linux|Node.js,debugging|deployment|frontend|testing,ffi
+5608829998,nodejs/node,JavaScript|Linux|Node.js,debugging|frontend|testing,ffi
+5608605506,nodejs/node,Git|GitHub|Go|JavaScript|Linux|Node.js,concurrency|debugging|frontend|version control,
+5608290323,nodejs/node,C|C++|JavaScript|Linux|Node.js,debugging|frontend,watch-mode
+5607632639,nodejs/node,JavaScript|Linux|Node.js,debugging|frontend,watch-mode
+5606508490,nodejs/node,JavaScript|Linux|Node.js,concurrency|debugging|frontend,process
+5605799571,nodejs/node,C|JavaScript|Linux|Node.js,configuration|debugging|frontend,windows|install
+5604839711,nodejs/node,JavaScript|Linux|Node.js,concurrency|debugging|file handling|frontend,vfs
+5602998998,nodejs/node,JavaScript|Linux|Node.js,concurrency|debugging|frontend|machine learning,confirmed-bug|stream|regression|v26.x
+5602525662,nodejs/node,C|C++|JavaScript|Linux|Node.js,backend|concurrency|frontend|testing,
+5602191062,nodejs/node,JavaScript|Linux|Node.js,API|frontend,help wanted|v8 engine|never-stale
+5601053677,nodejs/node,C|JavaScript|Linux|Node.js,debugging|frontend|testing,
+5600303693,nodejs/node,Docker|JavaScript|Linux|Node.js,concurrency|debugging|frontend|testing,test_runner
+5595806402,nodejs/node,C|GitHub|GitHub Actions|JavaScript|Linux|Node.js,backend|concurrency|deployment|frontend|logging|testing|version control,test|flaky-test|v26.x
+5593732117,nodejs/node,JavaScript|Linux|Node.js,API|documentation|frontend,doc
+5589143014,nodejs/node,JavaScript|Linux|Node.js,debugging|frontend|networking,confirmed-bug|http2
+5588788302,nodejs/node,JavaScript|Linux|Node.js,concurrency|debugging|frontend,report
+5587345367,nodejs/node,JavaScript|Linux|Node.js,frontend,
+5587146727,nodejs/node,C|HTML|JavaScript|Linux|Node.js,backend|frontend|machine learning,invalid
+5586978767,nodejs/node,C|HTML|JavaScript|Linux|Node.js,backend|frontend|machine learning,invalid
+5586695573,nodejs/node,JavaScript|Linux|Node.js,debugging|frontend,
+5585412279,nodejs/node,JavaScript|Linux|Node.js,caching|concurrency|debugging|frontend,
+5581382876,nodejs/node,JavaScript|Linux|Node.js,API|backend|debugging|frontend|testing,
+5579648993,nodejs/node,JavaScript|Linux|Node.js,API|backend|configuration|frontend|networking,feature request
+5577879161,nodejs/node,C|JavaScript|Linux|Node.js|Python,deployment|frontend|networking,feature request|ffi
+5576641374,nodejs/node,JavaScript|Linux|Node.js,concurrency|frontend|machine learning|testing,
+5576476465,nodejs/node,JavaScript|Linux|Node.js,API|backend|frontend,
+5575784932,nodejs/node,C|C++|Docker|GitHub|GitHub Actions|Go|JavaScript|Linux|Node.js,concurrency|debugging|file handling|frontend|testing|version control,
+5573710447,nodejs/node,JavaScript|Linux|Node.js,debugging|deployment|frontend,
+5568715478,nodejs/node,JavaScript|Linux|Node.js|TypeScript,debugging|frontend|testing,
+5678388639,vuejs/core,HTML|TypeScript|Vue,backend|frontend|machine learning|testing,
+5661196891,vuejs/core,TypeScript|Vue,debugging|frontend,
+5651509100,vuejs/core,Linux|TypeScript|Vue,backend|frontend,
+5650917683,vuejs/core,Go|TypeScript|Vue,frontend|logging,scope: vapor
+5643360643,vuejs/core,C|TypeScript|Vue,caching|debugging|documentation|frontend|machine learning|testing,has workaround|:hammer: p3-minor-bug
+5635602951,vuejs/core,Node.js|TypeScript|Vue,concurrency|debugging|frontend,scope: ssr|:hammer: p3-minor-bug
+5626708234,vuejs/core,TypeScript|Vue,caching|database|debugging|frontend|testing,scope: keep-alive|:hammer: p3-minor-bug
+5608671555,vuejs/core,Git|HTML|TypeScript|Vue,backend|frontend|machine learning|testing|version control,
+5604726147,vuejs/core,Go|TypeScript|Vue,API|configuration|debugging|frontend,scope: reactivity|:hammer: p3-minor-bug
+5604670342,vuejs/core,TypeScript|Vue,API|configuration|debugging|frontend,scope: vapor
+5604587099,vuejs/core,TypeScript|Vue,caching,
+5604421664,vuejs/core,TypeScript|Vue,debugging|deployment|frontend,:hammer: p3-minor-bug|scope: vapor
+5591404924,vuejs/core,C|Node.js|TypeScript|Vue,frontend|machine learning|testing,
+5578638180,vuejs/core,TypeScript|Vue,debugging|deployment|frontend|testing,scope: reactivity|:hammer: p3-minor-bug
+5570717131,vuejs/core,HTML|TypeScript|Vue,concurrency|debugging|frontend|machine learning,:hammer: p3-minor-bug
+5567520462,vuejs/core,TypeScript|Vue,frontend,
+5567166046,vuejs/core,TypeScript|Vue,debugging|documentation|frontend,:hammer: p3-minor-bug
+5564507236,vuejs/core,TypeScript|Vue,frontend,
+5536666757,vuejs/core,TypeScript|Vue,debugging,scope: sfc|:hammer: p3-minor-bug
+5533830339,vuejs/core,TypeScript|Vue,debugging|frontend,
+5524472793,vuejs/core,HTML|TypeScript|Vue,backend|concurrency|deployment|frontend|machine learning|testing,scope: vapor
+5516118157,vuejs/core,TypeScript|Vue,caching|frontend,
+5485304484,vuejs/core,TypeScript|Vue,concurrency|debugging|frontend,:hammer: p3-minor-bug
+5457322832,vuejs/core,TypeScript|Vue,,
+5439593432,vuejs/core,TypeScript|Vue,debugging|frontend|machine learning|testing,:hammer: p3-minor-bug
+5439589294,vuejs/core,TypeScript|Vue,concurrency|debugging|frontend,scope: sfc|:hammer: p3-minor-bug
+5438272767,vuejs/core,TypeScript|Vue,frontend,scope: vapor
+5414476691,vuejs/core,Git|TypeScript|Vue,caching|configuration|deployment|frontend|version control,
+5414475998,vuejs/core,Git|Go|TypeScript|Vue,caching|configuration|debugging|deployment|version control,:hammer: p3-minor-bug
+5398020655,vuejs/core,Node.js|TypeScript|Vue,,has workaround|🔩 p2-edge-case
+5395919650,vuejs/core,JavaScript|Linux|TypeScript|Vue,configuration|debugging|frontend,scope: sfc|has workaround|:hammer: p3-minor-bug
+5369802863,vuejs/core,TypeScript|Vue,frontend,scope: vapor
+5357169316,vuejs/core,TypeScript|Vue,backend|caching|concurrency|configuration|debugging|deployment|frontend,can't reproduce
+5295846091,vuejs/core,TypeScript|Vue,,scope: vapor
+5287523985,vuejs/core,C|HTML|TypeScript|Vue,backend|debugging|frontend|machine learning,scope: vapor
+5287515512,vuejs/core,HTML|TypeScript|Vue,backend|debugging|frontend|machine learning,scope: vapor
+5280739352,vuejs/core,TypeScript|Vue,caching,
+5275468111,vuejs/core,Go|HTML|TypeScript|Vue,frontend|machine learning,
+5243458102,vuejs/core,TypeScript|Vue,API|caching|concurrency|debugging|machine learning|testing,
+5236748963,vuejs/core,C|CSS|TypeScript|Vue,,scope: vapor
+5236679225,vuejs/core,TypeScript|Vue,,scope: vapor
+5208305898,vuejs/core,TypeScript,concurrency|debugging|deployment|frontend|machine learning|testing,scope: suspense|:hammer: p3-minor-bug
+5199052652,vuejs/core,TypeScript|Vue,debugging|testing,:hammer: p3-minor-bug
+5190181553,vuejs/core,Linux|TypeScript|Vue,frontend,
+5157596603,vuejs/core,HTML|TypeScript|Vue,frontend|machine learning,
+5138795459,vuejs/core,Go|Linux|TypeScript|Vue,caching|debugging|deployment|frontend|performance,scope: keep-alive|:hammer: p3-minor-bug
+5137310812,vuejs/core,TypeScript|Vue,debugging|frontend,scope: vapor
+5132876599,vuejs/core,TypeScript|Vue,deployment|frontend|performance,scope: vapor
+5127004094,vuejs/core,HTML|TypeScript|Vue,frontend|machine learning,scope: vapor
+5126199080,vuejs/core,HTML|TypeScript|Vue,documentation|frontend|logging|machine learning,scope: vapor
+5680371759,spring-projects/spring-boot,Java|Kubernetes|Spring,configuration|database|frontend,status: waiting-for-triage
+5677431321,spring-projects/spring-boot,Java|Spring,,type: enhancement
+5663426428,spring-projects/spring-boot,Java|Spring,security,status: invalid
+5661121101,spring-projects/spring-boot,Java|Spring,configuration|debugging,type: bug|status: forward-port
+5661119288,spring-projects/spring-boot,Java|Spring,configuration|debugging,type: bug|status: forward-port
+5660615467,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660581498,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660552385,spring-projects/spring-boot,Java|Spring,,status: duplicate|type: task
+5660546068,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660538613,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660413842,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660411703,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660383885,spring-projects/spring-boot,Java|Spring,,type: task
+5660243306,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660241408,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5660210035,spring-projects/spring-boot,Java|Spring,deployment,type: task|status: forward-port
+5660206650,spring-projects/spring-boot,Java|Spring,deployment,type: task|status: forward-port
+5659904605,spring-projects/spring-boot,Java|Spring,,type: task
+5659750786,spring-projects/spring-boot,Java|Spring,concurrency|logging,type: enhancement|status: pending-design-work
+5659572684,spring-projects/spring-boot,Java|Spring,debugging,type: bug|status: forward-port
+5659569942,spring-projects/spring-boot,Java|Spring,debugging,type: bug|status: forward-port
+5659012977,spring-projects/spring-boot,Java|Spring,debugging,type: bug
+5649342728,spring-projects/spring-boot,Java|Spring,concurrency|logging,status: superseded
+5621400233,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5621397400,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5617751259,spring-projects/spring-boot,Java|Spring,debugging,type: bug|status: forward-port
+5617746069,spring-projects/spring-boot,Java|Spring,debugging,type: bug|status: forward-port
+5613637155,spring-projects/spring-boot,Java|Spring,machine learning,type: regression|status: forward-port
+5613635260,spring-projects/spring-boot,Java|Spring,machine learning,type: regression|status: forward-port
+5613245518,spring-projects/spring-boot,Docker|Java|Spring,debugging,type: bug|status: forward-port
+5613244115,spring-projects/spring-boot,Docker|Java|Spring,debugging,type: bug|status: forward-port
+5612282929,spring-projects/spring-boot,Java|Spring,API|documentation,type: documentation|status: forward-port
+5612281764,spring-projects/spring-boot,Java|Spring,API|documentation,type: documentation|status: forward-port
+5612087100,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5612085950,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5611934931,spring-projects/spring-boot,GitHub|Java|Spring,database|deployment|version control,type: task|status: team-only
+5611913368,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5611911856,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5611865980,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5611863534,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5611425470,spring-projects/spring-boot,Java|Spring,debugging,type: bug|status: forward-port
+5611422863,spring-projects/spring-boot,Java|Spring,debugging,type: bug|status: forward-port
+5610855697,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5610854693,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5610775095,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5610772986,spring-projects/spring-boot,Java|Spring,,type: task|status: forward-port
+5589292984,spring-projects/spring-boot,Java|Spring,testing,type: task|status: forward-port
+5589291258,spring-projects/spring-boot,Java|Spring,testing,type: task|status: forward-port
+5585857447,spring-projects/spring-boot,Java|Spring,documentation,type: documentation|status: forward-port
+5585827253,spring-projects/spring-boot,Java|Spring,documentation,type: documentation
+5679110677,tensorflow/tensorflow,C|C++|Python|TensorFlow,debugging|machine learning|networking|testing,type:bug
+5675565615,tensorflow/tensorflow,C|C++|Linux|Python|TensorFlow,debugging|documentation|frontend|machine learning|networking,type:docs-bug|type:bug
+5675297275,tensorflow/tensorflow,C|C++|Linux|Python|TensorFlow,debugging|documentation|frontend|machine learning|networking,type:docs-bug|type:bug
+5670173827,tensorflow/tensorflow,C|C++|Python|TensorFlow,debugging|machine learning|networking,type:bug
+5669990065,tensorflow/tensorflow,C|C++|Python|TensorFlow,debugging|machine learning|networking,type:bug
+5669942306,tensorflow/tensorflow,C|C++|NumPy|Python|TensorFlow,debugging|machine learning|networking,type:bug
+5669936386,tensorflow/tensorflow,C|C++|NumPy|Python|TensorFlow,debugging|machine learning|networking|testing,type:bug
+5666460404,tensorflow/tensorflow,C|C++|Keras|Linux|NumPy|Python|TensorFlow,concurrency|configuration|debugging|frontend|machine learning|networking,type:bug
+5666460014,tensorflow/tensorflow,C|C++|Keras|Linux|NumPy|Python|TensorFlow,concurrency|configuration|debugging|frontend|machine learning|networking,type:bug
+5666459607,tensorflow/tensorflow,C|C++|Keras|Linux|NumPy|Python|TensorFlow,concurrency|configuration|debugging|frontend|machine learning|networking,type:bug
+5666459233,tensorflow/tensorflow,C|C++|Keras|Linux|NumPy|Python|TensorFlow,concurrency|configuration|debugging|frontend|machine learning|networking,type:bug
+5648003113,tensorflow/tensorflow,C|C++|Go|Keras|Linux|NumPy|Oracle|Python|TensorFlow,backend|concurrency|configuration|debugging|deployment|frontend|machine learning|networking|performance|testing,type:bug|comp:keras|2.21.0
+5632728338,tensorflow/tensorflow,C|C++|Keras|Python|TensorFlow,deployment|machine learning|networking,type:support|comp:keras|2.21.0
+5627924393,tensorflow/tensorflow,C|C++|Git|Keras|Linux|NumPy|Oracle|Python|TensorFlow,backend|concurrency|configuration|debugging|frontend|machine learning|networking|version control,type:bug|comp:xla|2.21.0
+5625113394,tensorflow/tensorflow,C|C++|Keras|Linux|NumPy|Python|TensorFlow,configuration|debugging|frontend|machine learning|networking,stat:awaiting response|type:bug|comp:keras|2.20.0
+5605369520,tensorflow/tensorflow,C|C++|NumPy|Python|TensorFlow,debugging|machine learning|networking|version control,type:bug|comp:tf.function|awaiting pr merge|2.21.0
+5601296293,tensorflow/tensorflow,C|C++|HTML|Python|TensorFlow,debugging|documentation|machine learning|networking|version control,type:docs-bug|type:bug|awaiting pr merge
+5600725845,tensorflow/tensorflow,C|C++|Docker|Java|Linux|Python|Swift|TensorFlow,API|debugging|documentation|frontend|machine learning|networking|performance|security|testing,type:bug|comp:lite|tf 2.19
+5595875725,tensorflow/tensorflow,C|C++|NumPy|Python|TensorFlow,debugging|machine learning|networking,type:bug|comp:ops
+5592624930,tensorflow/tensorflow,C|C++|Linux|NumPy|Python|TensorFlow,concurrency|configuration|debugging|frontend|machine learning|networking|version control,type:bug|comp:data|awaiting pr merge|tf 2.19
+5585297307,tensorflow/tensorflow,C|C++|Python|TensorFlow,debugging|machine learning|networking,type:feature
+5582988842,tensorflow/tensorflow,C|C++|Linux|Python|TensorFlow,debugging|documentation|frontend|machine learning|networking|version control,type:docs-bug|type:bug|comp:ops|awaiting pr merge
+5581700174,tensorflow/tensorflow,C|C++|Linux|NumPy|Python|TensorFlow,debugging|documentation|frontend|machine learning|networking|version control,type:docs-bug|type:bug|comp:ops|awaiting pr merge
+5577752198,tensorflow/tensorflow,C|C++|Linux|Python|TensorFlow,debugging|frontend|machine learning|networking|version control,type:bug|comp:xla|awaiting pr merge|2.21.0
+5570449622,tensorflow/tensorflow,C|C++|Git|Linux|NumPy|Python|TensorFlow,debugging|frontend|machine learning|networking|version control,type:bug|comp:ops|comp:xla|2.21.0
+5562558638,tensorflow/tensorflow,C|C++|Git|Linux|NumPy|Python|TensorFlow,debugging|frontend|machine learning|networking|version control,type:bug|comp:xla|2.21.0
+5680597452,pytorch/pytorch,AWS|C++|Linux|NumPy|PyTorch|Python,caching|concurrency|configuration|debugging|frontend|machine learning|networking|security,oncall: quantization|bot-triaged
+5680417127,pytorch/pytorch,NumPy|PyTorch|Python,caching|configuration|debugging|machine learning|networking|performance|testing,module: optimizer|module: error checking|triaged|bot-triaged
+5679984382,pytorch/pytorch,NumPy|Python,machine learning|networking|performance,module: performance|feature|triaged|oncall: pt2|module: inductor|bot-triaged
+5679527055,pytorch/pytorch,NumPy|Python,backend|concurrency|configuration|deployment|machine learning|networking|testing,triage review|oncall: distributed|triaged|module: regression|module: correctness (silent)|oncall: pt2|module: inductor|module: symm_mem|bot-triaged|oncall: distributed infra|release triage
+5679028192,pytorch/pytorch,C|NumPy|PyTorch|Python,caching|configuration|debugging|machine learning|networking,module: onnx|triaged|bot-triaged
+5678135167,pytorch/pytorch,NumPy|Python,machine learning|networking|testing,triaged|skipped|module: xpu|bot-triaged
+5678118265,pytorch/pytorch,NumPy|Python,machine learning|networking|testing,triaged|skipped|module: xpu|bot-triaged
+5678117440,pytorch/pytorch,NumPy|Python,machine learning|networking|testing,triaged|skipped|module: xpu|bot-triaged
+5677619039,pytorch/pytorch,Linux|NumPy|PyTorch|Python,backend|caching|concurrency|configuration|debugging|frontend|machine learning|networking|performance,triaged|module: edge cases|bot-triaged
+5677603008,pytorch/pytorch,Linux|NumPy|PyTorch|Python,backend|caching|concurrency|configuration|debugging|frontend|machine learning|networking|performance,module: edge cases|bot-triaged
+5676149820,pytorch/pytorch,Git|Linux|NumPy|PyTorch|Python,configuration|debugging|frontend|machine learning|networking|testing|version control,triage review|module: sparse|module: rocm|module: regression|module: correctness (silent)|bot-triaged
+5674159847,pytorch/pytorch,C|C++|Linux|NumPy|PyTorch|Python,caching|concurrency|configuration|debugging|dependency management|deployment|frontend|machine learning|networking|security|testing,triage review|module: dependency bug|module: cpu|module: convolution|module: mkldnn|module: half|module: correctness (silent)|bot-triaged|release triage
+5674046869,pytorch/pytorch,GitHub|Jenkins|NumPy|PyTorch|Python,debugging|logging|machine learning|networking|testing|version control,module: tests|triaged|module: flaky-tests|skipped|oncall: pt2|bot-triaged
+5673743921,pytorch/pytorch,C|C++|Linux|NumPy|Python,debugging|frontend|machine learning|networking|testing,triage review|module: cpu|module: numerical-reproducibility|module: vectorization|module: bfloat16|module: half|module: correctness (silent)|module: arm|bot-triaged
+5671443271,pytorch/pytorch,GitHub|Linux|NumPy|PyTorch|Python,concurrency|debugging|frontend|logging|machine learning|networking|testing|version control,triaged|module: flaky-tests|skipped|oncall: pt2|module: inductor
+5671442919,pytorch/pytorch,GitHub|Linux|NumPy|PyTorch|Python,concurrency|debugging|frontend|logging|machine learning|networking|testing|version control,triaged|module: flaky-tests|skipped|oncall: pt2|module: inductor
+5669565713,pytorch/pytorch,Docker|Git|NumPy|PyTorch|Python,debugging|machine learning|networking|security|version control,low priority|module: ci|triaged|security|bot-triaged
+5668875102,pytorch/pytorch,Linux|NumPy|Python,frontend|machine learning|networking,module: binaries|triaged|bot-triaged
+5668785366,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668783955,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|module: inductor|oncall: cpu inductor|bot-triaged
+5668782535,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|module: inductor|bot-triaged
+5668781147,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668779739,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668778314,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668776662,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668775419,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668773931,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|bot-triaged
+5668772725,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668771338,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,skipped|oncall: cpu inductor|bot-triaged
+5668770065,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668768552,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668767041,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668765463,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668764076,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668762643,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668761227,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668759443,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668758166,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668756667,pytorch/pytorch,NumPy|Python,configuration|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668755011,pytorch/pytorch,C++|NumPy|Python,configuration|debugging|machine learning|networking|testing,module: tests|triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5668753565,pytorch/pytorch,NumPy|Python,configuration|debugging|machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5667728861,pytorch/pytorch,NumPy|Python,machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5667726001,pytorch/pytorch,NumPy|Python,machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5667427699,pytorch/pytorch,Linux|NumPy|PyTorch|Python,caching|concurrency|configuration|debugging|deployment|frontend|machine learning|networking|security,triaged|module: complex|oncall: pt2|module: inductor|bot-triaged|release triage
+5667211856,pytorch/pytorch,NumPy|Python,machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5667193736,pytorch/pytorch,NumPy|Python,machine learning|networking|testing,triaged|skipped|oncall: pt2|oncall: export|module: aotinductor|bot-triaged
+5667047314,pytorch/pytorch,Go|NumPy|PyTorch|Python,caching|concurrency|database|documentation|machine learning|networking|performance|testing,module: performance|triaged|enhancement|module: cudacachingallocator|bot-triaged
+5666458700,pytorch/pytorch,Linux|NumPy|PyTorch|Python,backend|caching|concurrency|configuration|debugging|frontend|machine learning|networking|performance|security,triaged|module: numerical-reproducibility|module: edge cases|bot-triaged
+5666458174,pytorch/pytorch,Linux|NumPy|PyTorch|Python,backend|caching|concurrency|configuration|debugging|frontend|machine learning|networking|performance|security,module: edge cases|bot-triaged
+5666457701,pytorch/pytorch,Linux|NumPy|PyTorch|Python,backend|caching|concurrency|configuration|debugging|frontend|machine learning|networking|performance|security,triaged|module: edge cases|bot-triaged
+5674931561,numpy/numpy,NumPy|Python,API|debugging|testing,00 - bug
+5640411975,numpy/numpy,NumPy|Python,debugging|deployment|performance,00 - bug
+5638633418,numpy/numpy,NumPy|Python,API|debugging,00 - bug
+5629397560,numpy/numpy,GitHub|NumPy|Python,documentation|version control,04 - documentation
+5620144679,numpy/numpy,C|Go|NumPy|Python,debugging,00 - bug
+5619027208,numpy/numpy,C|C++|NumPy|Python,backend|caching|configuration|debugging|testing,32 - installation
+5611146097,numpy/numpy,C++|NumPy|Python,API|debugging|security|testing,
+5592954778,numpy/numpy,C|NumPy|Python,configuration|debugging|documentation,32 - installation
+5589743948,numpy/numpy,C|Linux|NumPy|Python,API|debugging|frontend,00 - bug
+5574823453,numpy/numpy,C|NumPy|Python,debugging,00 - bug
+5559068130,numpy/numpy,NumPy|Python,configuration,41 - static typing
+5557210373,numpy/numpy,C|NumPy|Python,machine learning,01 - enhancement
+5537035874,numpy/numpy,NumPy|Python,API,
+5531524239,numpy/numpy,NumPy|Python,debugging|documentation,00 - bug
+5519979700,numpy/numpy,C|GitHub|GitHub Actions|NumPy|Python,API|backend|configuration|debugging|testing|version control,
+5519943213,numpy/numpy,C|NumPy|Python,API|documentation,16 - development
+5512188831,numpy/numpy,C|Linux|NumPy|Python,debugging|frontend,00 - bug
+5508474622,numpy/numpy,C|Linux|NumPy|Python|TensorFlow,API|debugging|frontend|testing,00 - bug|57 - close?
+5495842343,numpy/numpy,C|Git|NumPy|Python,debugging|machine learning|testing|version control,00 - bug
+5482223959,numpy/numpy,C|Linux|NumPy|Python,debugging|frontend,00 - bug
+5479241834,numpy/numpy,NumPy|Python,documentation,04 - documentation
+5478726373,numpy/numpy,NumPy|Python,caching,
+5457220697,numpy/numpy,NumPy|Python,,
+5449705757,numpy/numpy,C|Git|Linux|NumPy|Python,concurrency|configuration|debugging|deployment|frontend|version control,00 - bug
+5444964450,numpy/numpy,C|C++|NumPy|Python,,01 - enhancement|triaged
+5442209946,numpy/numpy,NumPy|Python,debugging,00 - bug
+5441197864,numpy/numpy,NumPy|Python,,01 - enhancement|triage review
+5434245948,numpy/numpy,NumPy|Pandas|Python,API,01 - enhancement|54 - needs decision|triage review
+5433599078,numpy/numpy,C|NumPy|Python,debugging|testing,
+5423747811,numpy/numpy,Linux|NumPy|Python,configuration|debugging|deployment|frontend,00 - bug
+5423432454,numpy/numpy,NumPy|Python,debugging,00 - bug|07 - deprecation|sustain-2026
+5411874225,numpy/numpy,NumPy|Python,concurrency|debugging,00 - bug|57 - close?
+5399918919,numpy/numpy,C|NumPy|Python,debugging,00 - bug
+5378678696,numpy/numpy,NumPy|Python,debugging,00 - bug|57 - close?
+5377758793,numpy/numpy,Go|NumPy|Python,API|debugging|deployment,00 - bug|sustain-2026
+5375534495,numpy/numpy,NumPy|Python,documentation,04 - documentation
+5367410669,numpy/numpy,NumPy|Python,debugging,00 - bug
+5365049919,numpy/numpy,NumPy|Python,debugging|frontend,00 - bug|component: numpy.strings
+5338919953,numpy/numpy,C|NumPy|Python,debugging|machine learning|testing,
+5337844481,numpy/numpy,NumPy|Python,deployment|testing,01 - enhancement
+5336385141,numpy/numpy,Linux|NumPy|Python,API|concurrency|configuration|debugging|deployment|frontend|testing,00 - bug
+5330950485,numpy/numpy,NumPy|Python,debugging|documentation,00 - bug
+5328316452,numpy/numpy,C|C++|NumPy|Python,debugging|deployment|frontend,00 - bug
+5317384726,numpy/numpy,C|GitHub|NumPy|Python,API|concurrency|frontend|testing|version control,05 - testing|component: ci
+5316458576,numpy/numpy,NumPy|Python,debugging,00 - bug|triaged
+5302294160,numpy/numpy,C|Linux|NumPy|Python,frontend|machine learning|performance|testing,01 - enhancement|triage review
+5299828200,numpy/numpy,C|NumPy|Python,configuration|debugging|frontend,
+5291905346,numpy/numpy,NumPy|Python,performance|testing,
+5279632087,numpy/numpy,Linux|NumPy|Python,API|backend|concurrency|debugging|deployment|frontend,00 - bug
+5271088629,numpy/numpy,C|NumPy|Python,caching|debugging|performance,00 - bug|triage review
+5672849505,pandas-dev/pandas,Pandas|Python,documentation,docs|needs triage
+5671254211,pandas-dev/pandas,NumPy|Pandas|Python,API|debugging,api design|deprecate|needs discussion
+5665342886,pandas-dev/pandas,C|NumPy|Pandas|PostgreSQL|Python|SQLite,API|database|debugging|deployment|testing,api design|numeric operations|algos|compat|complex|needs discussion
+5665200961,pandas-dev/pandas,C|GitHub|GitHub Actions|Pandas|Python,backend|configuration|documentation|version control,docs
+5662009183,pandas-dev/pandas,Pandas|Python,configuration|debugging,bug|needs triage
+5654513781,pandas-dev/pandas,C|Pandas|Python,debugging,needs triage
+5639737885,pandas-dev/pandas,NumPy|Pandas|PostgreSQL|Python|SQLite,database|debugging|deployment|testing,bug|needs triage
+5635951426,pandas-dev/pandas,C|NumPy|Pandas|PostgreSQL|Python|SQLite,database|debugging|deployment|testing,bug|groupby
+5633399298,pandas-dev/pandas,NumPy|Pandas|Python,API,datetime|timedelta|needs discussion|non-nano
+5633331202,pandas-dev/pandas,Pandas|Python,documentation,docs|timedelta
+5608684084,pandas-dev/pandas,Pandas|Python,debugging|machine learning,bug|strings|arrow
+5603403547,pandas-dev/pandas,Pandas|Python,API|deployment,api design|needs discussion|apply
+5596583807,pandas-dev/pandas,C|NumPy|Pandas|PostgreSQL|Python|SQLite,database|debugging|deployment|machine learning|testing,bug|regression|strings|arrow
+5589637249,pandas-dev/pandas,C|NumPy|Pandas|PostgreSQL|Python|SQLite,database|deployment|machine learning|performance|testing,performance|copy / view semantics
+5587907066,pandas-dev/pandas,Pandas|Python,debugging,typing
+5584669715,pandas-dev/pandas,Linux|NumPy|Pandas|Python,debugging|frontend,
+5582516361,pandas-dev/pandas,C|Linux|NumPy|Pandas|Python,concurrency|debugging|file handling|frontend|testing,
+5569420334,pandas-dev/pandas,Pandas|Python,debugging,bug|deprecate
+5566999747,pandas-dev/pandas,Pandas|Python,API|machine learning,enhancement|io data|apply
+5565396354,pandas-dev/pandas,NumPy|Pandas|Python,API|debugging,bug
+5564773449,pandas-dev/pandas,Pandas|Python,,
+5564755718,pandas-dev/pandas,Pandas|Python,,
+5559130680,pandas-dev/pandas,Pandas|Python,debugging,bug|dtype conversions|numeric operations|arrow
+5556440582,pandas-dev/pandas,NumPy|Pandas|Python,testing,enhancement|needs triage
+5545485524,pandas-dev/pandas,Pandas|Python,debugging,bug|indexing
+5522350399,pandas-dev/pandas,Pandas|Python,documentation,docs|io hdf5
+5520286903,pandas-dev/pandas,C|NumPy|Pandas|Python,API|frontend|networking|testing,needs discussion|extensionarray - new method request
+5510569582,pandas-dev/pandas,C|NumPy|Pandas|PostgreSQL|Python|SQLite,database|debugging|deployment|machine learning|testing,bug|regression|window
+5499521695,pandas-dev/pandas,Pandas|Python,debugging|testing,bug|testing
+5498384783,pandas-dev/pandas,NumPy|Pandas|PostgreSQL|Python|SQLite,database|debugging|deployment|testing,bug|datetime|dtype conversions|needs discussion|astype
+5497538004,pandas-dev/pandas,Pandas|Python,configuration|documentation|testing,docs
+5484299565,pandas-dev/pandas,Pandas|Python,,enhancement|algos|closing candidate
+5480355770,pandas-dev/pandas,C|Pandas|Python,debugging|documentation,docs
+5457219042,pandas-dev/pandas,Pandas|Python,,
+5455174497,pandas-dev/pandas,C|Pandas|Python,API|concurrency|debugging|machine learning,api design|io csv|deprecate|needs discussion
+5455053803,pandas-dev/pandas,GitHub|Pandas|Python,API|caching|performance|version control,io csv|deprecate
+5452015477,pandas-dev/pandas,NumPy|Pandas|Python,API,api design|needs discussion
+5440662533,pandas-dev/pandas,C|NumPy|Pandas|PostgreSQL|Python|SQLite,database|debugging|deployment|machine learning|testing,bug|needs triage
+5434155672,pandas-dev/pandas,Pandas|Python|SQLite,concurrency|database|debugging|deployment,bug|io csv
+5680631378,microsoft/vscode,TypeScript,testing,testplan-item
+5680412591,microsoft/vscode,TypeScript,debugging|deployment|logging,bug|telemetry|agent-host|new release
+5680343250,microsoft/vscode,TypeScript,authorization|configuration|deployment|machine learning,
+5680310210,microsoft/vscode,Git|GitHub|TypeScript,authorization|automation|debugging|machine learning|version control,errors-fix|agentic-workflows
+5680256018,microsoft/vscode,Express|Git|GitHub|Linux|TypeScript,authorization|automation|concurrency|debugging|frontend|version control,errors-fix|agentic-workflows
+5680249655,microsoft/vscode,TypeScript,deployment|frontend|logging|performance,new release
+5680205404,microsoft/vscode,Git|GitHub|Linux|TypeScript,authorization|automation|debugging|frontend|machine learning|version control,errors-fix|agentic-workflows
+5680015549,microsoft/vscode,C|Docker|Git|GitHub|JavaScript|React|TypeScript,API|authorization|debugging|deployment|frontend|logging|version control,new release
+5679714033,microsoft/vscode,Linux|TypeScript,debugging|frontend|machine learning,bug|error-telemetry|recent-regression|stable-anomaly|ai-generated|ai-analyzed
+5679714015,microsoft/vscode,Linux|TypeScript,concurrency|debugging|frontend|machine learning,bug|error-telemetry|recent-regression|stable-anomaly|ai-generated|ai-analyzed
+5679712129,microsoft/vscode,Linux|TypeScript,concurrency|database|debugging|frontend|machine learning,bug|error-telemetry|recent-regression|stable-anomaly|ai-generated|ai-analyzed
+5679708734,microsoft/vscode,TypeScript,debugging|machine learning,bug|error-telemetry|recent-regression|stable-anomaly|ai-generated|*fix
+5679655150,microsoft/vscode,Linux|TypeScript,deployment|frontend|logging,
+5679547876,microsoft/vscode,TypeScript,authorization|logging,
+5679227703,microsoft/vscode,TypeScript,concurrency|debugging|machine learning,bug|error-telemetry|recent-regression|ai-generated|ai-analyzed
+5679046965,microsoft/vscode,Azure|C|C++|Git|GitHub|Go|PHP|Python|TypeScript,backend|configuration|debugging|deployment|testing|version control,new release
+5679028917,microsoft/vscode,GitHub|TypeScript,authentication|version control,
+5678957815,microsoft/vscode,TypeScript,,
+5678460666,microsoft/vscode,Java|TypeScript,,invalid
+5678326990,microsoft/vscode,Git|TypeScript,deployment|version control,
+5678251876,microsoft/vscode,Linux|Python|TypeScript,backend|debugging|frontend,
+5677941500,microsoft/vscode,GitHub|TypeScript,configuration|version control,
+5677538288,microsoft/vscode,C|C++|GitHub|Linux|Python|TypeScript,API|authorization|backend|configuration|debugging|deployment|frontend|logging|version control,new release
+5677386637,microsoft/vscode,TypeScript,,spam
+5677067888,microsoft/vscode,TypeScript,testing,testplan-item
+5676975165,microsoft/vscode,TypeScript,deployment|frontend|machine learning,new release
+5676707976,microsoft/vscode,GitHub|TypeScript,backend|database|deployment|version control,new release
+5676703771,microsoft/vscode,Git|GitHub|TypeScript,database|deployment|testing|version control,endgame-plan
+5676446979,microsoft/vscode,Bootstrap|C|GitHub|GitHub Actions|Go|Java|PHP|Python|SQL|TypeScript|Vue,authorization|backend|database|debugging|deployment|frontend|logging|testing|version control,new release
+5676390104,microsoft/vscode,Git|GitHub|TypeScript,caching|deployment|logging|testing|version control,new release
+5676358945,microsoft/vscode,C|Java|Python|TypeScript,authorization|debugging|deployment|frontend|logging|testing,new release
+5676278764,microsoft/vscode,C|GitHub|TypeScript,authentication|debugging|deployment|frontend|logging|testing|version control,new release
+5676258526,microsoft/vscode,GitHub|Node.js|TypeScript,debugging|version control,
+5676110780,microsoft/vscode,Git|TypeScript,deployment|frontend|version control,new release
+5675971236,microsoft/vscode,TypeScript,logging,spam
+5675927822,microsoft/vscode,GitHub|TypeScript,configuration|testing|version control,testplan-item
+5675556910,microsoft/vscode,C|Git|Linux|TypeScript,concurrency|configuration|deployment|frontend|testing|version control,new release
+5675267743,microsoft/vscode,C|GitHub|TypeScript,API|authorization|debugging|deployment|frontend|logging|performance|version control,new release
+5675246917,microsoft/vscode,GitHub|Node.js|TypeScript,debugging|deployment|version control,unreleased
+5675106012,microsoft/vscode,Angular|C|Git|TypeScript,authentication|debugging|frontend|logging|version control,
+5675020161,microsoft/vscode,Azure|C|GitHub|Python|SQL|TypeScript,authorization|backend|database|debugging|deployment|frontend|logging|version control,new release
+5674863628,microsoft/vscode,C|Python|TypeScript,authorization|debugging|deployment|frontend|logging,triage-needed|new release
+5674682983,microsoft/vscode,CSS|TypeScript,frontend|machine learning|performance,chat-perf-regression
+5674456507,microsoft/vscode,GitHub|Node.js|TypeScript,debugging|logging|version control,
+5674150824,microsoft/vscode,Azure|GitHub|Linux|TypeScript,API|frontend|logging|version control,
+5674010879,microsoft/vscode,Azure|TypeScript,API|authentication|backend|configuration|database|deployment|frontend|performance,
+5673916582,microsoft/vscode,Git|TypeScript,deployment|performance|version control,new release
+5673695977,microsoft/vscode,C|CSS|Git|GitHub|Linux|Oracle|Rust|Tailwind CSS|TypeScript,API|authorization|backend|deployment|documentation|frontend|logging|version control,new release
+5673590818,microsoft/vscode,C|GitHub|Linux|PHP|Python|TypeScript,authorization|backend|debugging|deployment|frontend|logging|version control,info-needed|new release
+5673589219,microsoft/vscode,TypeScript,,spam
+5610459206,docker/compose,Docker|Go|Linux|PostgreSQL,configuration|database|debugging|deployment|frontend,kind/bug
+5584195005,docker/compose,Docker|Go,configuration|database|deployment|testing,
+5564782197,docker/compose,C|Docker|Go,configuration|database|deployment,
+5553966072,docker/compose,Docker|Go|Linux,API|backend|documentation|frontend|testing,
+5533418696,docker/compose,Docker|Go,,
+5527236140,docker/compose,Docker|Go,logging,
+5473706863,docker/compose,Docker|Git|Go|Linux,API|backend|concurrency|configuration|deployment|frontend|testing|version control,kind/feature
+5471721219,docker/compose,Docker|Go,configuration,kind/feature|status/0-triage
+5465767235,docker/compose,Docker|Git|Go|Linux,debugging|frontend|version control,kind/bug
+5464664339,docker/compose,C|Docker|Git|Go|Linux|Python,backend|debugging|file handling|frontend|logging|security|version control,kind/bug
+5458166481,docker/compose,Docker|Go|Linux,backend|debugging|file handling|frontend|logging|security,kind/bug|status/0-triage
+5410366361,docker/compose,Docker|Go,configuration|debugging,kind/bug
+5397024733,docker/compose,C|Docker|Go,API|database|debugging|logging,kind/bug
+5397021829,docker/compose,Docker|Git|Go|Linux|PHP,API|authorization|backend|configuration|database|debugging|documentation|file handling|frontend|logging|security|version control,kind/bug|status/0-triage
+5353004610,docker/compose,Docker|Go,debugging,kind/bug
+5321595712,docker/compose,Docker|Go,authorization|configuration|debugging|testing,kind/bug
+5319674897,docker/compose,Docker|Go,configuration|database|debugging|logging|security,kind/feature
+5319529223,docker/compose,Bootstrap|C|Docker|Go,caching|performance,kind/feature
+5310997213,docker/compose,Docker|Go,,kind/question
+5310029781,docker/compose,Docker|Go|Python,,
+5247858344,docker/compose,Docker|Go|Linux|Redis,backend|caching|configuration|debugging|file handling|frontend|logging|security|testing,kind/bug
+5216945530,docker/compose,C|Docker|GitHub|Go|Linux,debugging|frontend|performance|testing|version control,
+5206536300,docker/compose,Docker|Go,debugging,kind/bug
+5204053408,docker/compose,Docker|Go,,
+5204052131,docker/compose,Docker|Go,,
+5204049881,docker/compose,Docker|Go,,
+5204048490,docker/compose,Docker|Go,database,
+5182879291,docker/compose,Docker|GitHub|Go,authentication|configuration|version control,kind/question
+5179589949,docker/compose,C|Docker|Go|Linux,backend|debugging|file handling|frontend|logging|security,kind/bug
+5173359459,docker/compose,C|Docker|Go,concurrency|configuration|database|debugging|logging|machine learning|testing,
+5171649149,docker/compose,C|Docker|Git|Go|Linux,API|backend|caching|concurrency|configuration|debugging|deployment|documentation|frontend|machine learning|testing|version control,
+5158415744,docker/compose,Docker|Go,API|backend|configuration|database|deployment|frontend,kind/feature|needs-engine-feature
+5130774464,docker/compose,Docker|Go|Linux,API|configuration|debugging|frontend|testing,
+5122423081,docker/compose,Docker|Go|Linux,backend|debugging|frontend|testing,kind/bug
+5110239617,docker/compose,C|Docker|Go,API|concurrency|debugging|deployment|documentation|logging|machine learning|testing,
+5097984225,docker/compose,Docker|Go,logging,
+5088761895,docker/compose,AWS|Docker|Go|Linux,backend|debugging|frontend|logging|security|testing,kind/bug|status/0-triage
+5088488739,docker/compose,C|Docker|Go|Linux,backend|configuration|debugging|deployment|frontend|logging|security|testing,kind/bug
+5077524549,docker/compose,Docker|GitHub|GitHub Actions|Go|Linux,authentication|backend|debugging|frontend|logging|security|version control,kind/bug|status/0-triage
+5073194510,docker/compose,Docker|Go,configuration|debugging|testing,kind/bug
+5062613850,docker/compose,C|Docker|Go|Linux,backend|configuration|debugging|deployment|frontend|logging|machine learning|security|testing,kind/bug
+5039244402,docker/compose,Docker|Git|Go|Linux,API|backend|configuration|debugging|documentation|file handling|frontend|logging|security|version control,kind/feature
+5021969356,docker/compose,Docker|Go,,
+5018261956,docker/compose,Docker|Go|Linux,debugging|deployment|frontend|machine learning,kind/bug
+5005329280,docker/compose,Docker|Go|Linux,backend|configuration|debugging|file handling|frontend|logging|security,kind/bug
+4992779374,docker/compose,Docker|Go,configuration|debugging,kind/bug
+4960101814,docker/compose,C|Docker|Go|Linux,backend|debugging|frontend|logging|security|testing,kind/bug
+4904617168,docker/compose,Docker|Go|Linux,backend|configuration|debugging|frontend|logging|security|testing,kind/bug
+4901165412,docker/compose,Docker|Go|Linux,backend|configuration|debugging|frontend|logging|security,kind/bug|status/0-triage
+4873801950,docker/compose,Docker|Go,testing,kind/feature
+5677402999,kubernetes/kubernetes,Go|Kubernetes,debugging|machine learning|performance|testing,kind/bug|sig/scheduling|triage/accepted
+5677297984,kubernetes/kubernetes,AWS|Go|Kubernetes|Linux,API|authentication|authorization|backend|debugging|deployment|documentation|frontend|logging|performance,kind/bug|needs-sig|needs-triage
+5671485853,kubernetes/kubernetes,Go|Kubernetes,deployment|testing,kind/failing-test|sig/release|needs-triage
+5668907178,kubernetes/kubernetes,Go|Kubernetes|Linux,API|authentication|authorization|backend|debugging|deployment|frontend|logging|security,kind/bug|sig/api-machinery|sig/auth|needs-triage
+5667057356,kubernetes/kubernetes,Go|Kubernetes,API|backend|caching,sig/api-machinery|needs-triage
+5667000940,kubernetes/kubernetes,C|Go|Kubernetes|Linux,API|debugging|deployment|frontend,kind/bug|area/kubelet|sig/node|needs-triage
+5661379805,kubernetes/kubernetes,Go|Kubernetes,API|concurrency|testing,sig/scheduling|kind/flake|needs-triage
+5661125746,kubernetes/kubernetes,Go|Kubernetes,configuration|debugging,kind/bug|sig/cli|needs-triage
+5658798275,kubernetes/kubernetes,Go|Kubernetes|Linux,API|debugging|frontend,kind/bug|needs-sig|needs-triage
+5655642433,kubernetes/kubernetes,Go|Kubernetes,API|configuration|debugging|frontend|logging|networking|testing,kind/bug|sig/network|area/kube-proxy|needs-triage
+5651269039,kubernetes/kubernetes,C|Go|Kubernetes|Linux,debugging|deployment|frontend,kind/bug|priority/important-soon|area/kubelet|sig/node|triage/accepted
+5650843769,kubernetes/kubernetes,C|Go|Kubernetes|Linux,debugging|deployment|frontend,kind/bug|priority/important-soon|area/kubelet|sig/node|triage/accepted
+5648797951,kubernetes/kubernetes,C|Go|Java|JavaScript|Kubernetes|Python|Rust,API|database|deployment,sig/api-machinery|needs-triage
+5648362251,kubernetes/kubernetes,Go|Kubernetes,deployment|performance|testing,sig/scalability|sig/cluster-lifecycle|kind/flake|needs-triage
+5645805456,kubernetes/kubernetes,C|Go|Google Cloud|Kubernetes|Linux,debugging|deployment|frontend,kind/bug|needs-sig|needs-triage
+5643525691,kubernetes/kubernetes,Go|Kubernetes,,sig/scheduling|kind/feature|needs-triage
+5638322729,kubernetes/kubernetes,C|Go|Kubernetes|Linux,API|backend|debugging|deployment|frontend|performance,kind/bug|sig/api-machinery|needs-triage
+5633283209,kubernetes/kubernetes,AWS|Azure|Go|Kubernetes,API|architecture|authentication|authorization|backend|concurrency|configuration|deployment|testing,sig/testing|sig/architecture|area/conformance|area/e2e-test-framework|needs-triage
+5631768922,kubernetes/kubernetes,Go|Kubernetes,API|backend|configuration|debugging|deployment|machine learning|testing,sig/api-machinery|needs-triage
+5629531992,kubernetes/kubernetes,Go|Kubernetes,backend|debugging,kind/bug|sig/node|needs-triage
+5623692657,kubernetes/kubernetes,Go|Kubernetes|Linux,caching|frontend|testing,kind/flake|sig/apps|needs-triage
+5622057543,kubernetes/kubernetes,Go|Kubernetes,API|authentication|backend|database|documentation,kind/documentation|sig/api-machinery|area/admission-control|needs-triage
+5618397023,kubernetes/kubernetes,Go|Kubernetes,backend|debugging|deployment|machine learning|testing,kind/bug|sig/node|needs-triage
+5617401492,kubernetes/kubernetes,C|Go|Kubernetes|Linux,configuration|debugging|deployment|frontend|testing,kind/bug|needs-sig|needs-triage
+5615872271,kubernetes/kubernetes,GitHub|Go|Kubernetes,API|architecture|version control,sig/architecture|area/code-organization|needs-triage
+5610642257,kubernetes/kubernetes,AWS|Go|Kubernetes,deployment|testing,sig/node|kind/flake|needs-triage
+5607905801,kubernetes/kubernetes,C|Go|Kubernetes|Linux,authorization|debugging|deployment|frontend,kind/bug|sig/storage|needs-triage
+5607026553,kubernetes/kubernetes,Go|Kubernetes,testing,sig/node|needs-triage
+5604223718,kubernetes/kubernetes,Go|Kubernetes,API|configuration|database|debugging|documentation|frontend|security|testing,kind/bug|sig/instrumentation|sig/cloud-provider|triage/accepted
+5594927332,kubernetes/kubernetes,Go|Kubernetes,API|deployment|logging|performance|testing,sig/node|kind/flake|sig/testing|priority/important-longterm|triage/accepted|wg/device-management
+5594348726,kubernetes/kubernetes,Docker|GitHub|Go|Kubernetes|Linux,debugging|deployment|file handling|frontend|testing|version control,kind/bug|sig/node|priority/important-longterm|needs-triage
+5588651773,kubernetes/kubernetes,Go|Kubernetes|Linux,deployment|frontend|logging,priority/backlog|sig/node|kind/feature|triage/accepted
+5584511772,kubernetes/kubernetes,Go|Google Cloud|Kubernetes|Linux,API|debugging|deployment|frontend|logging|testing,kind/bug|sig/scalability|area/provider/gcp|sig/testing|sig/cloud-provider|needs-triage
+5584337060,kubernetes/kubernetes,Go|Kubernetes,debugging|machine learning|testing,sig/node|kind/failing-test|needs-triage
+5583363899,kubernetes/kubernetes,Go|Kubernetes,deployment|performance|refactoring|testing,kind/cleanup|sig/node|priority/important-longterm|triage/accepted
+5583204230,kubernetes/kubernetes,C|Go|Kubernetes|Linux,debugging|deployment|frontend|testing,kind/bug|needs-triage|wg/device-management
+5579064119,kubernetes/kubernetes,Go|Kubernetes,deployment|testing,priority/important-soon|sig/node|kind/flake|triage/accepted
+5568169690,kubernetes/kubernetes,Git|Go|Google Cloud|Kubernetes,caching|logging|testing|version control,help wanted|sig/testing|sig/cloud-provider|triage/accepted
+5568133459,kubernetes/kubernetes,Go|Kubernetes,API|backend|configuration|performance,sig/api-machinery|kind/feature|needs-triage
+5566069093,kubernetes/kubernetes,Docker|Go|Kubernetes|Linux,API|backend|configuration|database|debugging|deployment|frontend|performance,kind/bug|sig/instrumentation|needs-triage
+5565471933,kubernetes/kubernetes,Go|Kubernetes,API|debugging|frontend|testing,kind/bug|sig/instrumentation|triage/accepted
+5565356505,kubernetes/kubernetes,C|Docker|GitHub|GitHub Actions|Go|Kubernetes|Linux,API|backend|debugging|deployment|frontend|performance|testing|version control,kind/bug|sig/node|sig/api-machinery|sig/cli|needs-triage
+5564841542,kubernetes/kubernetes,C|Go|Kubernetes|Linux,API|backend|caching|configuration|debugging|deployment|frontend|logging|testing,kind/bug|needs-sig|needs-triage
+5562233014,kubernetes/kubernetes,Go|Kubernetes,documentation|testing,kind/documentation|sig/docs|needs-triage
+5560670966,kubernetes/kubernetes,Go|Kubernetes,deployment|performance,kind/feature|needs-sig|needs-triage
+5560647303,kubernetes/kubernetes,Go|Kubernetes,,kind/feature|needs-sig|needs-triage
+5560226203,kubernetes/kubernetes,Go|Kubernetes,documentation|testing,sig/node|sig/windows|needs-triage
+5559180310,kubernetes/kubernetes,GitHub|Go|Kubernetes,API|architecture|backend|database|debugging|dependency management|deployment|refactoring|version control,kind/cleanup|sig/api-machinery|sig/architecture|area/dependency|area/code-organization|needs-triage
+5558212128,kubernetes/kubernetes,Go|Kubernetes,,sig/node|needs-triage
+5557701917,kubernetes/kubernetes,Go|Kubernetes,deployment|testing,sig/scalability|kind/failing-test|needs-triage
+5678697908,rust-lang/rust,Rust,build system|deployment,relnotes|t-types|relnotes-tracking-issue
+5678051529,rust-lang/rust,C|Linux|Rust,build system|concurrency|debugging|deployment|frontend,a-borrow-checker|c-bug|t-types|fixed-by-polonius
+5677127231,rust-lang/rust,C|Linux|Rust,build system|concurrency|configuration|debugging|deployment|frontend,c-bug|a-lto|needs-triage
+5675608979,rust-lang/rust,Rust|SQLite,build system|database|frontend|refactoring|testing,a-diagnostics|t-compiler|wg-trait-system-refactor|needs-triage
+5675044893,rust-lang/rust,Git|Linux|Rust|SQLite,build system|database|debugging|deployment|frontend|testing|version control,a-diagnostics|t-compiler
+5674918482,rust-lang/rust,C|GitHub|GitHub Actions|Linux|Rust,build system|deployment|file handling|frontend|machine learning|version control,o-macos|p-high|regression-from-stable-to-stable|needs-triage|a-pgo
+5673210090,rust-lang/rust,Rust,build system|deployment,t-compiler|relnotes|needs-triage|relnotes-tracking-issue|relnotes-needs-review
+5670253336,rust-lang/rust,C|GitHub|Linux|Rust,backend|build system|deployment|frontend|machine learning|performance|version control,a-llvm|p-high|regression-from-stable-to-stable|i-hang|o-aarch64|needs-triage
+5668106548,rust-lang/rust,Bootstrap|Rust,build system|deployment|frontend|testing,a-llvm|a-testsuite|t-compiler|relnotes|t-bootstrap|t-infra|f-explicit_tail_calls|a-ci|relnotes-tracking-issue
+5665653543,rust-lang/rust,C|Linux|Rust,build system|debugging|deployment|frontend|machine learning,a-llvm|t-compiler|regression-from-stable-to-stable|c-bug|i-prioritize|s-has-bisection|a-pgo
+5665592708,rust-lang/rust,C|Linux|Rust,build system|debugging|deployment|frontend|machine learning,p-high|t-compiler|regression-from-stable-to-stable|c-bug|t-libs|o-uefi
+5664371986,rust-lang/rust,C|Rust,build system|deployment,t-lang|relnotes|t-opsem|needs-triage|relnotes-tracking-issue|relnotes-needs-review
+5663183497,rust-lang/rust,C|Rust,backend|build system|debugging|deployment,a-lints|t-compiler|c-bug|s-blocked|d-invalid-suggestion|l-deprecated
+5661052638,rust-lang/rust,C|Linux|Rust,build system|configuration|deployment|frontend|performance,a-llvm|i-slow|a-codegen|i-heavy|t-libs|c-optimization
+5659737629,rust-lang/rust,C|Linux|Rust,API|build system|concurrency|database|debugging|frontend|testing,i-ice|c-bug|needs-triage|f-gca_min_const_items|-zassumptions-on-binders
+5659703891,rust-lang/rust,Bootstrap|Rust,build system|file handling|frontend|testing,a-testsuite|t-bootstrap|t-libs|o-sgx|needs-triage
+5656025568,rust-lang/rust,Rust,build system,t-libs|o-motor-os
+5651036345,rust-lang/rust,C|Linux|Rust,build system|debugging|deployment|frontend|machine learning,a-diagnostics|t-compiler|a-inference|c-bug|d-confusing|d-incorrect|t-types
+5651009291,rust-lang/rust,C|Rust,build system,c-enhancement|needs-triage|f-gpu_offload
+5647569214,rust-lang/rust,C|Linux|Rust,build system|database|debugging|deployment|frontend|machine learning,regression-from-stable-to-nightly|t-compiler|a-inference|c-bug|i-prioritize|t-types|needs-triage|s-has-bisection
+5646437209,rust-lang/rust,C|HTML|Linux|Rust,API|backend|build system|concurrency|database|debugging|deployment|frontend|logging|machine learning|performance|testing,i-ice|t-compiler|a-incr-comp|c-bug|needs-triage|s-needs-repro
+5646389871,rust-lang/rust,C|Rust,build system,t-rustdoc|c-enhancement|a-attributes|e-mentor|t-compiler|e-medium
+5646128683,rust-lang/rust,C|Rust,build system|debugging,a-llvm|p-low|t-compiler|i-unsound|c-bug|t-opsem|i-miscompile
+5645769232,rust-lang/rust,Linux|Rust,build system|concurrency|deployment|frontend|refactoring,a-diagnostics|t-compiler|t-types|wg-trait-system-refactor
+5644157837,rust-lang/rust,C|Git|Linux|Rust,build system|concurrency|database|debugging|deployment|frontend|machine learning|version control,i-ice|regression-from-stable-to-nightly|t-compiler|c-bug
+5643655763,rust-lang/rust,Bootstrap|C|Linux|Rust,backend|build system|concurrency|configuration|debugging|deployment|frontend|testing,t-bootstrap|c-bug|a-gcc|needs-triage
+5638376545,rust-lang/rust,C|Rust,build system,c-enhancement|a-attributes|e-mentor|t-compiler|e-medium
+5638335949,rust-lang/rust,C|Rust,build system|deployment,t-lang|relnotes|t-libs|a-abi|t-opsem|needs-triage|relnotes-tracking-issue|relnotes-needs-review
+5636552532,rust-lang/rust,C|Linux|Rust,build system|concurrency|debugging|deployment|frontend|machine learning,t-compiler|c-bug|wg-async|needs-triage|f-async_drop
+5635189730,rust-lang/rust,C|Rust,build system|debugging|machine learning,a-lifetimes|t-compiler|regression-from-stable-to-stable|c-bug|i-prioritize|t-types|a-crate-compat
+5634258957,rust-lang/rust,C|Rust,build system|concurrency|database|debugging,i-ice|t-compiler|c-bug|needs-triage|f-abi_ptx
+5632519944,rust-lang/rust,C|Rust,build system|debugging|deployment,o-arm|a-inline-assembly|c-bug|needs-triage
+5632189105,rust-lang/rust,C|Rust,build system|debugging|documentation,t-compiler|c-tracking-issue|s-tracking-unimplemented|b-mcp-approved
+5630332024,rust-lang/rust,Rust,build system,a-iterators|t-libs|needs-triage
+5629951752,rust-lang/rust,Rust,build system|concurrency|deployment,s-waiting-on-crater|needs-triage
+5629331393,rust-lang/rust,C|Rust,build system|debugging|deployment,i-crash|a-llvm|t-compiler|c-bug|needs-triage
+5628992614,rust-lang/rust,Rust,build system,a-diagnostics|t-compiler|a-const-generics|f-gca_min_const_items
+5628232851,rust-lang/rust,Rust,build system|machine learning,a-diagnostics|t-compiler
+5625155172,rust-lang/rust,C|Linux|Rust,build system|frontend,c-discussion
+5619733997,rust-lang/rust,C|Linux|Rust,build system|concurrency|database|debugging|deployment|frontend,i-ice|t-compiler|c-bug|needs-triage|f-fn_delegation
+5617480083,rust-lang/rust,C|Rust,build system|debugging|documentation|testing,t-compiler|c-tracking-issue|s-tracking-unimplemented|b-mcp-approved
+5615480568,rust-lang/rust,Linux|Rust,build system|deployment|frontend|machine learning|testing,a-diagnostics|t-compiler
+5615156122,rust-lang/rust,C|Rust,build system|debugging,p-low|t-compiler|c-bug|o-emscripten|l-linker_messages
+5614084878,rust-lang/rust,Rust,build system|caching|database|machine learning,i-unsound|t-types|f-non_lifetime_binders
+5611075165,rust-lang/rust,C|Linux|Rust,build system|concurrency|database|debugging|deployment|frontend,i-ice|t-compiler|c-bug
+5609987519,rust-lang/rust,C|Rust,build system|debugging|documentation,c-tracking-issue|a-const-generics|pg-const-generics
+5603894903,rust-lang/rust,C|Rust,build system|concurrency|debugging,t-lang|t-compiler|c-bug|a-async-await|a-panic
+5602711221,rust-lang/rust,C|Rust,build system|debugging|documentation,a-allocators|a-docs|c-bug|t-libs|t-opsem|a-global-allocator-reentry
+5600375162,rust-lang/rust,C|Rust,build system|caching|concurrency|configuration|performance,t-cargo|c-discussion
+5597335135,rust-lang/rust,C|Rust,build system|debugging,t-compiler|c-bug|a-mir-opt
+5679625210,golang/go,Go,,pkgsite
+5679284403,golang/go,Go,configuration|testing,
+5678756029,golang/go,Go,backend|build system|concurrency,needsinvestigation|arch-wasm|compiler/runtime
+5677603740,golang/go,Go,testing,pkgsite
+5675848618,golang/go,Go|Linux,build system|configuration|deployment|frontend|testing,needsinvestigation|release-blocker|compiler/runtime
+5675406525,golang/go,Go,,
+5675205782,golang/go,Go|Linux,build system|deployment|frontend,needsinvestigation|compiler/runtime
+5672411636,golang/go,Go,configuration|deployment|machine learning,os-windows|needsinvestigation
+5671924592,golang/go,C|C++|Go,build system|performance,compiler/runtime
+5671740534,golang/go,Go,API|build system,compiler/runtime
+5670305497,golang/go,GitHub|Go|Kubernetes|Linux,database|frontend|performance|version control,vulncheck or vulndb
+5670289636,golang/go,Go,authorization,proposal
+5669489262,golang/go,C|Go|Linux,automation|frontend|testing,automation
+5669488934,golang/go,C|Go,automation|testing,automation
+5669488495,golang/go,Go,automation|testing,automation
+5669487936,golang/go,C|Go,automation|testing,automation
+5669487337,golang/go,Go,automation|testing,automation
+5669471224,golang/go,Go,backend,cherrypickcandidate
+5668776459,golang/go,Go,automation|testing,automation
+5668332283,golang/go,Go,backend|build system|concurrency|debugging|logging|testing,os-windows|compiler/runtime
+5668331239,golang/go,AWS|Go,backend|build system|concurrency|debugging,os-windows|compiler/runtime
+5667609479,golang/go,Go,automation|testing,automation
+5667608732,golang/go,Go,automation|testing,automation
+5664627870,golang/go,Go,debugging|security,
+5664259428,golang/go,Go,build system|deployment|frontend,os-darwin|builders|needsfix|new-builder|arch-arm64
+5663032088,golang/go,Go,,tools
+5662993652,golang/go,Go|Linux,frontend|performance|testing,
+5660656981,golang/go,Express|Go,backend|configuration|performance,proposal|arch-riscv
+5654222196,golang/go,GitHub|Go|Linux,caching|configuration|documentation|frontend|version control,documentation|help wanted
+5652888267,golang/go,Express|Go,concurrency|configuration|performance|testing,
+5652348813,golang/go,Go|Linux,automation|frontend|testing,automation
+5652348127,golang/go,Go|Linux,automation|frontend|testing,automation
+5652347705,golang/go,Go|Linux,automation|frontend|testing,automation
+5651684422,golang/go,C|Go|Linux,build system|caching|debugging|frontend,compiler/runtime
+5650930978,golang/go,GitHub|Go,build system|deployment|machine learning|testing|version control,cherrypickcandidate|compiler/runtime
+5650930720,golang/go,GitHub|Go,build system|deployment|machine learning|testing|version control,cherrypickcandidate|compiler/runtime
+5650694826,golang/go,Go,testing,
+5649763884,golang/go,Go|HTML,deployment|machine learning|security,security|cherrypickapproved
+5649763621,golang/go,Go|HTML,deployment|machine learning|security,security|cherrypickapproved
+5649717753,golang/go,Go,deployment|security,security|cherrypickapproved
+5649717504,golang/go,Go,deployment|security,security|cherrypickapproved
+5649716960,golang/go,Go,deployment|security,security|cherrypickapproved
+5649716675,golang/go,Go,deployment|security,security|cherrypickapproved
+5649716196,golang/go,Go,deployment|security,security|cherrypickapproved
+5649716012,golang/go,Go,deployment|security,security|cherrypickapproved
+5649715509,golang/go,Go,deployment|security,security|cherrypickapproved
+5649715261,golang/go,Go,deployment|security,security|cherrypickapproved
+5649714853,golang/go,Go,deployment|security,security|cherrypickapproved
+5649714621,golang/go,Go,deployment|security,security|cherrypickapproved
+5649714124,golang/go,Go,deployment|security,security|cherrypickapproved
+5678477598,rails/rails,GitHub|Go|HTML|PostgreSQL|Ruby|Ruby on Rails|SQL,configuration|database|debugging|deployment|logging|machine learning|security|testing|version control,
+5664527446,rails/rails,GitHub|HTML|Ruby|Ruby on Rails,configuration|machine learning|testing|version control,
+5599242744,rails/rails,Go|HTML|PHP|Ruby|Ruby on Rails,authentication|caching|configuration|debugging|deployment|logging|machine learning|security,
+5574471867,rails/rails,HTML|PostgreSQL|Ruby|Ruby on Rails,configuration|database|machine learning,
+5573771203,rails/rails,HTML|Ruby|Ruby on Rails,concurrency|configuration|database|deployment|machine learning,
+5570179634,rails/rails,HTML|Ruby|Ruby on Rails,configuration|deployment|machine learning|testing,
+5567452696,rails/rails,C|HTML|MySQL|Ruby|Ruby on Rails|SQL,configuration|database|debugging|logging|machine learning|security|testing,
+5563403453,rails/rails,HTML|Ruby|Ruby on Rails,configuration|database|deployment|machine learning,
+5552080338,rails/rails,GitHub|HTML|Ruby|Ruby on Rails,configuration|database|logging|machine learning|testing|version control,
+5537363194,rails/rails,HTML|Ruby|Ruby on Rails,backend|configuration|deployment|machine learning,
+5533860860,rails/rails,Git|GitHub|HTML|Ruby|Ruby on Rails,concurrency|logging|machine learning|version control,activesupport|ci issues|ractor support
+5528124824,rails/rails,HTML|PostgreSQL|Ruby|Ruby on Rails|SQL,configuration|database|documentation|machine learning|testing,
+5528007111,rails/rails,HTML|PostgreSQL|Ruby|Ruby on Rails|SQL,configuration|database|documentation|machine learning|testing,
+5527908036,rails/rails,HTML|PostgreSQL|Ruby|Ruby on Rails|SQL,configuration|database|documentation|machine learning|testing,
+5525114117,rails/rails,HTML|PostgreSQL|Ruby|Ruby on Rails|SQL,configuration|database|debugging|machine learning,
+5511044028,rails/rails,Git|HTML|Linux|Ruby|Ruby on Rails,caching|frontend|machine learning|testing|version control,
+5510335437,rails/rails,HTML|JavaScript|Ruby|Ruby on Rails,configuration|machine learning|security,
+5484945638,rails/rails,GitHub|HTML|Ruby|Ruby on Rails|SQL,configuration|database|debugging|machine learning|testing|version control,
+5475240150,rails/rails,HTML|Ruby|Ruby on Rails,configuration|debugging|machine learning|testing,
+5469839232,rails/rails,HTML|Ruby|Ruby on Rails,machine learning,
+5463005300,rails/rails,HTML|PostgreSQL|Ruby|Ruby on Rails,configuration|database|logging|machine learning|testing,
+5460121019,rails/rails,HTML|Linux|Ruby|Ruby on Rails,backend|configuration|debugging|frontend|machine learning|security,
+5422417016,rails/rails,HTML|Ruby|Ruby on Rails,configuration|database|machine learning,
+5422245911,rails/rails,HTML|Ruby|Ruby on Rails,configuration|machine learning|testing,
+5419761310,rails/rails,C|GitHub|HTML|Linux|Ruby|Ruby on Rails,concurrency|configuration|debugging|file handling|frontend|machine learning|testing|version control,actionview|ci issues|ractor support
+5416811519,rails/rails,HTML|Ruby|Ruby on Rails,configuration|database|debugging|machine learning,
+5408073683,rails/rails,HTML|Ruby|Ruby on Rails,configuration|debugging|machine learning,
+5403164671,rails/rails,HTML|Ruby|Ruby on Rails,backend|database|deployment|machine learning|performance,
+5403057942,rails/rails,HTML|Ruby|Ruby on Rails,configuration|database|debugging|deployment|machine learning|testing,
+5399601882,rails/rails,HTML|Ruby|Ruby on Rails|SQLite,configuration|database|machine learning|testing,
+5390247551,rails/rails,HTML|Ruby|Ruby on Rails,deployment|machine learning|security,
+5388141587,rails/rails,HTML|Ruby|Ruby on Rails,authorization|backend|caching|concurrency|configuration|database|debugging|logging|machine learning|security,
+5373674922,rails/rails,HTML|Ruby|Ruby on Rails,configuration|machine learning,
+5334857868,rails/rails,GitHub|HTML|Ruby|Ruby on Rails,machine learning|version control,
+5329986778,rails/rails,Docker|HTML|Ruby|Ruby on Rails,backend|database|debugging|machine learning|testing,
+5329492045,rails/rails,HTML|Ruby|Ruby on Rails,configuration|database|logging|machine learning|security|testing,
+5325203358,rails/rails,HTML|Ruby|Ruby on Rails,caching|concurrency|configuration|database|debugging|deployment|logging|machine learning|testing,
+5321687251,rails/rails,Git|GitHub|HTML|Linux|Ruby|Ruby on Rails,caching|configuration|frontend|machine learning|testing|version control,
+5316467651,rails/rails,HTML|Ruby|Ruby on Rails,authentication|backend|configuration|database|deployment|machine learning|testing,
+5306961082,rails/rails,HTML|Ruby|Ruby on Rails,configuration|debugging|machine learning,
+5289791219,rails/rails,HTML|Redis|Ruby|Ruby on Rails,API|backend|caching|configuration|deployment|machine learning,
+5289676547,rails/rails,HTML|Ruby|Ruby on Rails,API|machine learning,
+5289620925,rails/rails,Git|HTML|Ruby|Ruby on Rails,debugging|deployment|machine learning|testing|version control,
+5289599304,rails/rails,Git|HTML|Ruby|Ruby on Rails,debugging|deployment|machine learning|testing|version control,
+5255062062,rails/rails,HTML|Ruby|Ruby on Rails,machine learning,
+5253454870,rails/rails,C|GitHub|HTML|Redis|Ruby|Ruby on Rails,backend|caching|configuration|machine learning|version control,
+5253444603,rails/rails,C|GitHub|HTML|Redis|Ruby|Ruby on Rails,backend|caching|configuration|machine learning|version control,
+5249609703,rails/rails,HTML|Ruby|Ruby on Rails,concurrency|documentation|machine learning|security|testing,
+5240528076,rails/rails,GitHub|HTML|PostgreSQL|Ruby|Ruby on Rails,configuration|database|machine learning|testing|version control,
+5201382893,rails/rails,HTML|Ruby|Ruby on Rails,configuration|database|debugging|logging|machine learning|security|testing,
+5680276535,laravel/framework,Laravel|PHP|SQLite,database|debugging,
+5678923855,laravel/framework,C|Docker|Go|Laravel|Linux|PHP|SQL,backend|concurrency|configuration|database|debugging|deployment|frontend|testing,
+5662332055,laravel/framework,Laravel|PHP,configuration|database|debugging|deployment,
+5654670742,laravel/framework,Laravel|PHP,backend|database,
+5637834964,laravel/framework,Laravel|Linux|PHP,database|frontend|machine learning|testing,
+5635098387,laravel/framework,Laravel|PHP,concurrency|database|file handling|testing,
+5615950414,laravel/framework,Laravel|PHP,database,
+5586739196,laravel/framework,Laravel|PHP|PostgreSQL|SQL,API|backend|configuration|database|debugging|deployment,
+5566918856,laravel/framework,Laravel|MySQL|PHP,caching|database|debugging|deployment,
+5556051185,laravel/framework,Laravel|PHP,database|frontend|testing,
+5549389238,laravel/framework,Laravel|PHP,database|debugging|documentation,
+5538341236,laravel/framework,Go|Laravel|PHP,API|backend|database|deployment|documentation,
+5476281083,laravel/framework,Laravel|PHP,backend|configuration|database|documentation|security,
+5475667287,laravel/framework,Bootstrap|Laravel|PHP,configuration|database|debugging|security|testing,
+5473310257,laravel/framework,Laravel|PHP|React|SQLite,database,
+5472890943,laravel/framework,Go|Laravel|MySQL|PHP|SQL,database|deployment|testing,
+5472369575,laravel/framework,Laravel|PHP,database|deployment,
+5467890963,laravel/framework,Laravel|PHP,database|debugging|documentation,
+5457484878,laravel/framework,Laravel|PHP,,
+5423849548,laravel/framework,Laravel|PHP,database,
+5422040376,laravel/framework,Bootstrap|C|Laravel|PHP,authentication|backend|database|testing,
+5421757770,laravel/framework,Laravel|PHP,configuration|database|debugging|logging,
+5418972909,laravel/framework,Go|Laravel|MySQL|PHP|React,authentication|backend|database|debugging|deployment|frontend|logging,
+5408063963,laravel/framework,C|Laravel|PHP,database,
+5395657462,laravel/framework,Laravel|Linux|PHP,configuration|database|frontend|machine learning|testing,
+5386091227,laravel/framework,Git|Laravel|MySQL|PHP,database|version control,
+5377082272,laravel/framework,Laravel|PHP|Redis,caching|database|deployment|machine learning|testing,
+5374896028,laravel/framework,Go|Laravel|MySQL|PHP,database,
+5364324264,laravel/framework,Laravel|PHP,configuration|database|debugging|deployment|machine learning|testing,
+5319166622,laravel/framework,Bootstrap|Laravel|PHP|PostgreSQL|SQLite,caching|configuration|database|frontend|performance,
+5316844102,laravel/framework,Laravel|MySQL|PHP,authentication|database,
+5298744878,laravel/framework,Laravel|PHP,database|debugging,
+5272015601,laravel/framework,Laravel|PHP,API|database|debugging|deployment|testing,
+5269840238,laravel/framework,Laravel|PHP,database|debugging,
+5257482192,laravel/framework,Laravel|PHP,configuration|database|documentation,
+5244231160,laravel/framework,Laravel|MySQL|PHP|Redis,caching|concurrency|database|debugging|deployment,
+5242294933,laravel/framework,Laravel|PHP,backend|database|debugging,
+5680081776,flutter/flutter,Dart|Kotlin|Linux,API|database|dependency management|documentation|frontend,tool|t: gradle|p2|team-android|triaged-android|d: docs/
+5678073837,flutter/flutter,Dart|Java|JavaScript|Kotlin|Linux,concurrency|configuration|debugging|dependency management|frontend|logging,
+5676084972,flutter/flutter,Dart|Git|Linux,API|authentication|backend|dependency management|deployment|documentation|frontend|logging|performance|version control,from: performance template
+5675031863,flutter/flutter,Dart|GitHub|Java|JavaScript|Linux|Swift,concurrency|configuration|database|debugging|dependency management|deployment|frontend|logging|version control,
+5674861626,flutter/flutter,Dart|Linux,backend|dependency management|deployment|frontend|testing,
+5674792984,flutter/flutter,Dart|Linux,dependency management|frontend,
+5674658278,flutter/flutter,CSS|Dart|HTML|Linux,API|concurrency|debugging|dependency management|frontend|logging|machine learning|testing,
+5674628940,flutter/flutter,C|Dart|Java|JavaScript|Linux|Swift,API|authorization|configuration|database|debugging|dependency management|frontend|logging,waiting for response
+5673777138,flutter/flutter,C|Dart|Linux,dependency management|frontend,framework|c: proposal|team-framework
+5673224926,flutter/flutter,Dart|GitHub|Linux,authorization|caching|dependency management|frontend|logging|version control,
+5672419560,flutter/flutter,Dart|Linux,concurrency|dependency management|frontend,engine|platform-web|e: wasm|e: web_skwasm|team-web
+5672419021,flutter/flutter,C|C++|Dart|Linux,concurrency|configuration|debugging|dependency management|deployment|frontend,c: crash|engine|platform-web|e: wasm|e: web_skwasm|team-web
+5670672315,flutter/flutter,Dart|Linux,dependency management|frontend,r: invalid
+5670412078,flutter/flutter,Dart|Linux,concurrency|dependency management|frontend|testing,
+5670351958,flutter/flutter,Dart|Java|Linux,configuration|dependency management|frontend,platform-android|tool|engine|p1|triaged-android
+5669578659,flutter/flutter,Dart|Kotlin|Linux,dependency management|frontend,p1|team-android|triaged-android
+5668624085,flutter/flutter,Dart|Linux,concurrency|debugging|dependency management|deployment|frontend|logging|testing,waiting for response|a: accessibility|found in release: 3.47
+5666867955,flutter/flutter,Dart|Linux,dependency management|deployment|frontend,
+5666846085,flutter/flutter,C|Dart|Java|JavaScript|Linux|Swift,configuration|database|debugging|dependency management|frontend|logging|testing,a: tests|platform-ios|engine|team-ios|from: manual-qa
+5665368285,flutter/flutter,Dart|Linux,configuration|database|debugging|dependency management|frontend|logging,engine|platform-linux|a: desktop|team-linux
+5664750152,flutter/flutter,C|Dart|Git|HTML|Linux,API|backend|concurrency|configuration|debugging|dependency management|frontend|logging|machine learning|security|testing|version control,p: material_ui|package|c: proposal|team-design
+5663246271,flutter/flutter,C|CSS|Dart|HTML|Java|JavaScript|Linux|Swift,API|configuration|database|debugging|dependency management|deployment|frontend|logging|machine learning|testing,a: text input|c: crash|engine|platform-web|team-web
+5663073071,flutter/flutter,Dart|Linux,dependency management|frontend,team-infra|p2
+5661392334,flutter/flutter,Dart|Git|Go|Linux,API|backend|caching|concurrency|dependency management|deployment|documentation|frontend|performance|testing|version control,platform-android|engine|perf: speed|e: impeller|team-engine
+5658918433,flutter/flutter,C|Dart|Linux,backend|debugging|dependency management|frontend|logging,waiting for response
+5658023863,flutter/flutter,Dart|Linux,API|dependency management|documentation|frontend|testing,framework|d: examples|team-framework
+5658023641,flutter/flutter,Dart|HTML|Linux,concurrency|dependency management|frontend|machine learning|testing,framework|team-framework
+5654209245,flutter/flutter,C|Dart|Linux,dependency management|frontend|logging,platform-android|engine|a: typography|platform-linux|c: rendering|e: impeller|team-engine
+5654066750,flutter/flutter,Dart|Linux,API|dependency management|frontend|testing,p2|team-android|triaged-android|infra: cipd
+5654010082,flutter/flutter,Dart|Linux,dependency management|frontend|logging,waiting for response
+5653976931,flutter/flutter,Dart|Linux,caching|dependency management|file handling|frontend,tool|p1
+5652274567,flutter/flutter,Dart|Linux,dependency management|deployment|frontend,p1|team-android|triaged-android
+5652116506,flutter/flutter,C|Dart|Git|Linux|Python,concurrency|configuration|debugging|dependency management|deployment|frontend|logging|machine learning|testing|version control,engine|platform-windows|perf: memory|team-engine|e: opengl
+5651930356,flutter/flutter,C|C++|Dart|Linux,caching|concurrency|configuration|database|debugging|dependency management|deployment|frontend|logging,c: crash|engine|a: accessibility|platform-macos|triaged-macos|fyi-macos|team-accessibility
+5651117110,flutter/flutter,Dart|Linux,dependency management|frontend,p2|team-android|triaged-android
+5649952195,flutter/flutter,Dart|Linux,dependency management|frontend|testing,
+5649776693,flutter/flutter,Dart|Linux,dependency management|frontend,infra: device lab
+5648229772,flutter/flutter,C|C++|Dart|Go|Linux|Swift,API|caching|configuration|database|debugging|dependency management|frontend,tool|engine|a: assets|platform-linux|c: proposal|a: desktop|team-linux
+5647686977,flutter/flutter,Dart|Linux,debugging|dependency management|frontend|logging,waiting for response|needs repro info
+5647045148,flutter/flutter,C|Dart|Linux,backend|caching|concurrency|debugging|dependency management|deployment|frontend|logging|performance|testing,c: crash|framework|f: scrolling|a: mouse|has reproducible steps|team-framework
+5645664390,flutter/flutter,Dart|Java|Linux,backend|concurrency|dependency management|deployment|frontend|logging,
+5644665603,flutter/flutter,C|Dart|Java|JavaScript|Linux|Swift,API|authentication|configuration|database|debugging|dependency management|frontend|logging,waiting for response
+5644302217,flutter/flutter,C|Dart|Go|Linux,dependency management|frontend|testing,p0|c: flake|team-engine
+5643919860,flutter/flutter,C|Dart|Go|Linux,dependency management|frontend|testing,p0|c: flake|team-engine
+5643919405,flutter/flutter,C|Dart|Go|Linux,dependency management|frontend|testing,p0|c: flake|team-tool
+5643000068,flutter/flutter,Dart|Java|JavaScript|Linux|Swift,API|backend|configuration|database|debugging|dependency management|frontend|logging|testing,platform-android|engine|p: video_player|package|has reproducible steps|e: impeller|team-engine
+5642732273,flutter/flutter,Dart|Kotlin|Linux,API|dependency management|deployment|frontend|logging|testing,waiting for response
+5641215654,flutter/flutter,Dart|Linux,dependency management|deployment|documentation|frontend,platform-android|engine|team-android
+5640714250,flutter/flutter,C|Dart|JavaScript|Linux|Swift,API|configuration|database|debugging|dependency management|frontend|logging|security,waiting for response
+5639500104,flutter/flutter,Dart|Linux,dependency management|frontend,a: fidelity|p2|fyi-android|team-ios|triaged-ios|fyi-accessibility
