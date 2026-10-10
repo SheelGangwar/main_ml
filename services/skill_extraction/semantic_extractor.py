@@ -1,3 +1,5 @@
+
+from functools import lru_cache
 from typing import Dict, List, Tuple
 
 from sentence_transformers import SentenceTransformer
@@ -7,49 +9,59 @@ from taxonomy import SKILL_TAXONOMY
 
 
 MODEL_NAME = "all-MiniLM-L6-v2"
+DEFAULT_THRESHOLD = 0.40
 
-_model = None
 
-
+@lru_cache(maxsize=1)
 def get_model():
-    """
-    Load the sentence transformer model only when needed.
-    """
-
-    global _model
-
-    if _model is None:
-        _model = SentenceTransformer(MODEL_NAME)
-
-    return _model
+    """Load the transformer model only once per process."""
+    return SentenceTransformer(MODEL_NAME)
 
 
 def build_skill_description(
     skill_name: str,
     skill_data: Dict
 ) -> str:
-    """
-    Create a natural-language description of a skill
-    from the taxonomy.
-    """
-
     aliases = skill_data.get("aliases", [])
     topics = skill_data.get("topics", [])
     category = skill_data.get("category", "")
 
-    return " ".join(
-        [
+    return " ".join([
+        skill_name,
+        category,
+        *aliases,
+        *topics
+    ])
+
+
+@lru_cache(maxsize=1)
+def get_skill_embeddings():
+    """
+    Encode taxonomy descriptions once and reuse the embeddings
+    across all repository analyses.
+    """
+    skill_names = list(SKILL_TAXONOMY.keys())
+
+    skill_descriptions = [
+        build_skill_description(
             skill_name,
-            category,
-            *aliases,
-            *topics
-        ]
+            SKILL_TAXONOMY[skill_name]
+        )
+        for skill_name in skill_names
+    ]
+
+    embeddings = get_model().encode(
+        skill_descriptions,
+        normalize_embeddings=True,
+        show_progress_bar=False
     )
+
+    return skill_names, embeddings
 
 
 def extract_semantic_skills(
     readme: str,
-    threshold: float = 0.40
+    threshold: float = DEFAULT_THRESHOLD
 ) -> List[Tuple[str, float, str]]:
 
     if not readme or not readme.strip():
@@ -57,28 +69,12 @@ def extract_semantic_skills(
 
     model = get_model()
 
-    skill_names = []
-    skill_descriptions = []
-
-    for skill_name, skill_data in SKILL_TAXONOMY.items():
-
-        skill_names.append(skill_name)
-
-        skill_descriptions.append(
-            build_skill_description(
-                skill_name,
-                skill_data
-            )
-        )
+    skill_names, skill_embeddings = get_skill_embeddings()
 
     readme_embedding = model.encode(
         [readme],
-        normalize_embeddings=True
-    )
-
-    skill_embeddings = model.encode(
-        skill_descriptions,
-        normalize_embeddings=True
+        normalize_embeddings=True,
+        show_progress_bar=False
     )
 
     similarities = cosine_similarity(
@@ -92,24 +88,16 @@ def extract_semantic_skills(
         skill_names,
         similarities
     ):
-
         if score >= threshold:
-
-            evidence = (
-                f"README semantic similarity "
-                f"with {skill_name}: {score:.3f}"
-            )
-
-            results.append(
-                (
-                    skill_name,
-                    float(score),
-                    evidence
-                )
-            )
+            results.append((
+                skill_name,
+                float(score),
+                f"README semantic similarity with "
+                f"{skill_name}: {score:.3f}"
+            ))
 
     results.sort(
-        key=lambda x: x[1],
+        key=lambda item: item[1],
         reverse=True
     )
 
