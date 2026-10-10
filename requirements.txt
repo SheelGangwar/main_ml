@@ -6,3 +6,4 @@ numpy==1.26.4
 google-genai
 python-dotenv
 sentence-transformers==3.0.1
+fastembed
