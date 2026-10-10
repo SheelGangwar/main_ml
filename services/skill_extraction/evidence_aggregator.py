@@ -8,70 +8,110 @@ def aggregate_skill_evidence(
 
     skill_data = {}
 
-    # Evidence weights
     evidence_weights = {
         "language": 0.45,
         "dependency": 0.40,
         "topic": 0.20,
     }
 
-    # -----------------------------
-    # Structured evidence
-    # -----------------------------
+    # ==========================================
+    # STRUCTURED EVIDENCE
+    # ==========================================
 
     for skill_name, evidence in structured_results:
 
         if skill_name not in skill_data:
+
             skill_data[skill_name] = {
                 "evidence": [],
                 "structured_scores": [],
-                "semantic_scores": []
+                "semantic_scores": [],
+                "sources": set(),
             }
 
-        skill_data[skill_name]["evidence"].append(evidence)
+        skill_data[skill_name]["evidence"].append(
+            evidence
+        )
 
         evidence_lower = evidence.lower()
 
-        if "contains" in evidence_lower and "code" in evidence_lower:
+        if (
+            "contains" in evidence_lower
+            and "code" in evidence_lower
+        ):
+
             weight = evidence_weights["language"]
 
+            skill_data[skill_name]["sources"].add(
+                "language"
+            )
+
         elif "dependency" in evidence_lower:
+
             weight = evidence_weights["dependency"]
 
+            skill_data[skill_name]["sources"].add(
+                "dependency"
+            )
+
         elif "topic" in evidence_lower:
+
             weight = evidence_weights["topic"]
 
+            skill_data[skill_name]["sources"].add(
+                "topic"
+            )
+
         else:
+
             weight = 0.10
 
-        skill_data[skill_name]["structured_scores"].append(weight)
+        skill_data[skill_name][
+            "structured_scores"
+        ].append(weight)
 
-    # -----------------------------
-    # Semantic evidence
-    # -----------------------------
+    # ==========================================
+    # SEMANTIC EVIDENCE
+    # ==========================================
 
     for skill_name, score, evidence in semantic_results:
 
         if skill_name not in skill_data:
+
             skill_data[skill_name] = {
                 "evidence": [],
                 "structured_scores": [],
-                "semantic_scores": []
+                "semantic_scores": [],
+                "sources": set(),
             }
 
-        skill_data[skill_name]["semantic_scores"].append(score)
-        skill_data[skill_name]["evidence"].append(evidence)
+        skill_data[skill_name][
+            "semantic_scores"
+        ].append(score)
 
-    # -----------------------------
-    # Final confidence
-    # -----------------------------
+        skill_data[skill_name][
+            "evidence"
+        ].append(evidence)
+
+        skill_data[skill_name][
+            "sources"
+        ].add("semantic")
+
+    # ==========================================
+    # FINAL CONFIDENCE
+    # ==========================================
 
     results = []
 
     for skill_name, data in skill_data.items():
 
-        structured_scores = data["structured_scores"]
-        semantic_scores = data["semantic_scores"]
+        structured_scores = data[
+            "structured_scores"
+        ]
+
+        semantic_scores = data[
+            "semantic_scores"
+        ]
 
         structured_score = min(
             sum(structured_scores),
@@ -84,7 +124,10 @@ def aggregate_skill_evidence(
             else 0.0
         )
 
-        if structured_score > 0 and semantic_score > 0:
+        if (
+            structured_score > 0
+            and semantic_score > 0
+        ):
 
             confidence = (
                 0.75 * structured_score
@@ -104,11 +147,25 @@ def aggregate_skill_evidence(
             1.0
         )
 
+        sources = data["sources"]
+
+        if len(sources) == 1:
+
+            source = next(iter(sources))
+
+        else:
+
+            source = "hybrid"
+
         results.append(
             {
                 "name": skill_name,
-                "confidence": round(confidence, 3),
-                "evidence": data["evidence"]
+                "confidence": round(
+                    confidence,
+                    3
+                ),
+                "evidence": data["evidence"],
+                "source": source,
             }
         )
 

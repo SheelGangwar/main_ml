@@ -1,4 +1,5 @@
 from typing import Dict, List, Tuple, Any
+import re
 
 from taxonomy import SKILL_TAXONOMY
 
@@ -7,14 +8,18 @@ def normalize(value: str) -> str:
     return value.strip().lower()
 
 
+# =========================================================
+# LANGUAGES
+# =========================================================
+
 def extract_languages(
     languages: Dict[str, int]
 ) -> List[Tuple[str, str]]:
-    """
-    Detect programming language skills from GitHub language statistics.
-    """
 
     results = []
+
+    if not isinstance(languages, dict):
+        return results
 
     for skill_name, skill_data in SKILL_TAXONOMY.items():
 
@@ -41,18 +46,24 @@ def extract_languages(
 
     return results
 
+
+# =========================================================
+# GITHUB TOPICS
+# =========================================================
+
 def extract_topics(
     topics: List[str]
 ) -> List[Tuple[str, str]]:
-    """
-    Detect skills from GitHub repository topics.
-    """
 
     results = []
+
+    if not isinstance(topics, list):
+        return results
 
     normalized_topics = {
         normalize(topic)
         for topic in topics
+        if isinstance(topic, str)
     }
 
     for skill_name, skill_data in SKILL_TAXONOMY.items():
@@ -78,135 +89,231 @@ def extract_topics(
     return results
 
 
-def extract_dependencies(
-    dependencies: Dict[str, Any]
-) -> List[Tuple[str, str]]:
-    """
-    Detect skills from project dependencies.
-    """
+# =========================================================
+# PACKAGE.JSON
+# =========================================================
 
-    results = []
+def extract_npm_packages(
+    package_files: Any
+) -> set:
 
-    package_json = dependencies.get("packageJson") or {}
-    requirements_txt = dependencies.get("requirementsTxt") or {}
-    pyproject_toml = dependencies.get("pyprojectToml") or {}
+    packages_found = set()
 
-    npm_packages = set()
+    if not isinstance(package_files, list):
+        return packages_found
 
-    python_packages = set()
+    for file_info in package_files:
 
-    # -------------------------
-    # package.json
-    # -------------------------
+        if not isinstance(file_info, dict):
+            continue
 
-    if isinstance(package_json, dict):
+        package_json = file_info.get("data")
+
+        if not isinstance(package_json, dict):
+            continue
 
         for section in [
             "dependencies",
             "devDependencies",
-            "peerDependencies"
+            "peerDependencies",
+            "optionalDependencies",
         ]:
 
-            packages = package_json.get(section, {})
+            packages = package_json.get(
+                section,
+                {}
+            )
 
             if isinstance(packages, dict):
 
-                npm_packages.update(
-                    normalize(package)
-                    for package in packages.keys()
-                )
+                for package_name in packages.keys():
 
-    # -------------------------
-    # requirements.txt
-    # -------------------------
+                    packages_found.add(
+                        normalize(package_name)
+                    )
 
-    if isinstance(requirements_txt, dict):
+    return packages_found
 
-        python_packages.update(
-            normalize(package)
-            for package in requirements_txt.keys()
+
+# =========================================================
+# REQUIREMENTS.TXT
+# =========================================================
+
+def extract_python_requirements(
+    requirement_files: Any
+) -> set:
+
+    packages_found = set()
+
+    if not isinstance(requirement_files, list):
+        return packages_found
+
+    for file_info in requirement_files:
+
+        if not isinstance(file_info, dict):
+            continue
+
+        content = file_info.get(
+            "content",
+            ""
         )
 
-    elif isinstance(requirements_txt, list):
+        if not isinstance(content, str):
+            continue
 
-        for package in requirements_txt:
+        for line in content.splitlines():
 
-            if isinstance(package, str):
+            line = line.strip()
 
-                package_name = (
-                    package
-                    .split("==")[0]
-                    .split(">=")[0]
-                    .split("<=")[0]
-                    .strip()
+            if (
+                not line
+                or line.startswith("#")
+                or line.startswith("-")
+            ):
+                continue
+
+            match = re.match(
+                r"^([A-Za-z0-9_.-]+)",
+                line
+            )
+
+            if match:
+
+                packages_found.add(
+                    normalize(match.group(1))
                 )
 
-                python_packages.add(
-                    normalize(package_name)
+    return packages_found
+
+
+# =========================================================
+# PYPROJECT.TOML
+# =========================================================
+
+def extract_pyproject_packages(
+    pyproject_files: Any
+) -> set:
+
+    packages_found = set()
+
+    if not isinstance(pyproject_files, list):
+        return packages_found
+
+    for file_info in pyproject_files:
+
+        if not isinstance(file_info, dict):
+            continue
+
+        content = file_info.get(
+            "content",
+            ""
+        )
+
+        if not isinstance(content, str):
+            continue
+
+        # Basic dependency extraction.
+        # This intentionally avoids requiring another TOML package.
+
+        dependency_section = False
+
+        for line in content.splitlines():
+
+            stripped = line.strip()
+
+            if stripped.startswith("["):
+
+                dependency_section = (
+                    "dependencies" in stripped.lower()
                 )
 
-    # -------------------------
-    # pyproject.toml
-    # -------------------------
+                continue
 
-    if isinstance(pyproject_toml, dict):
+            if not dependency_section:
+                continue
 
-        for key in [
-            "dependencies",
-            "devDependencies"
-        ]:
+            match = re.match(
+                r'^["\']?([A-Za-z0-9_.-]+)',
+                stripped
+            )
 
-            packages = pyproject_toml.get(key, {})
+            if match:
 
-            if isinstance(packages, dict):
+                package_name = match.group(1)
 
-                python_packages.update(
-                    normalize(package)
-                    for package in packages.keys()
-                )
+                if package_name not in {
+                    "dependencies",
+                    "dev-dependencies",
+                }:
 
-            elif isinstance(packages, list):
+                    packages_found.add(
+                        normalize(package_name)
+                    )
 
-                for package in packages:
+    return packages_found
 
-                    if isinstance(package, str):
 
-                        package_name = (
-                            package
-                            .split("==")[0]
-                            .split(">=")[0]
-                            .split("<=")[0]
-                            .strip()
-                        )
+# =========================================================
+# DEPENDENCIES
+# =========================================================
 
-                        python_packages.add(
-                            normalize(package_name)
-                        )
+def extract_dependencies(
+    dependencies: Dict[str, Any]
+) -> List[Tuple[str, str]]:
 
-    # -------------------------
-    # Match taxonomy
-    # -------------------------
+    results = []
+
+    if not isinstance(dependencies, dict):
+        return results
+
+    npm_packages = extract_npm_packages(
+        dependencies.get("packageJson", [])
+    )
+
+    python_packages = extract_python_requirements(
+        dependencies.get("requirementsTxt", [])
+    )
+
+    python_packages.update(
+        extract_pyproject_packages(
+            dependencies.get("pyprojectToml", [])
+        )
+    )
+
+    # ---------------------------------------------
+    # Match dependencies against taxonomy
+    # ---------------------------------------------
 
     for skill_name, skill_data in SKILL_TAXONOMY.items():
 
         npm_names = {
             normalize(package)
-            for package in skill_data.get("npm", [])
+            for package in skill_data.get(
+                "npm",
+                []
+            )
         }
 
         pypi_names = {
             normalize(package)
-            for package in skill_data.get("pypi", [])
+            for package in skill_data.get(
+                "pypi",
+                []
+            )
         }
 
-        npm_matches = npm_packages.intersection(
-            npm_names
+        npm_matches = (
+            npm_packages.intersection(
+                npm_names
+            )
         )
 
-        python_matches = python_packages.intersection(
-            pypi_names
+        python_matches = (
+            python_packages.intersection(
+                pypi_names
+            )
         )
-        
+
         for package in npm_matches:
 
             results.append(
@@ -228,12 +335,13 @@ def extract_dependencies(
     return results
 
 
+# =========================================================
+# COMPLETE STRUCTURED EXTRACTION
+# =========================================================
+
 def extract_structured_skills(
     repository: Dict[str, Any]
 ) -> List[Tuple[str, str]]:
-    """
-    Run all structured extraction methods.
-    """
 
     results = []
 
@@ -252,17 +360,14 @@ def extract_structured_skills(
         {}
     )
 
-    # Language extraction
     results.extend(
         extract_languages(languages)
     )
 
-    # Topic extraction
     results.extend(
         extract_topics(topics)
     )
 
-    # Dependency extraction
     results.extend(
         extract_dependencies(dependencies)
     )
